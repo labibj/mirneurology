@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  @apply overflow-x-hidden;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.title-h1 {
+  @apply lg:text-6xl text-3xl lg:mb-7 mb-4;
+}
+
+.title-h2 {
+  @apply lg:text-4xl text-3xl lg:mb-7 mb-4 font-semibold;
+}
+
+.title-h3 {
+  @apply text-3xl font-bold lg:mb-8 mb-4;
+}
+
+.title-h4 {
+  @apply text-2xl font-semibold lg:mb-6 mb-4;
+}
+
+.title-h5 {
+  @apply text-xl font-bold lg:mb-6 mb-4;
+}
+
+.title-h6 {
+  @apply text-lg font-semibold lg:mb-6 mb-4;
+}
+
+.list-none.with-bullets li {
+  @apply pl-4 relative
+}
+
+.list-none.with-bullets .icon-bullet {
+  @apply text-xl leading-none lg:absolute relative left-0 lg:top-0.5 top-1 lg:mr-0 mr-1 text-[#02C088];
+}
+
+
+@property --myColor3 {
+  syntax: '<color>';
+  initial-value: #1A70BA;
+  inherits: false;
+}
+
+@property --myColor4 {
+  syntax: '<color>';
+  initial-value: #02C088;
+  inherits: false;
+}
+
+
+@layer components {
+  .btn-primary {
+    @apply py-3 px-7 bg-[#02C088] text-white font-normal rounded shadow-md focus:outline-none focus:ring focus:ring-[#02C088] focus:ring-opacity-75 inline-block;
+  }
+
+  .btn-secondary {
+    @apply py-3 px-7 bg-gradient-to-r from-[var(--myColor3)] to-[var(--myColor4)] text-white font-normal rounded focus:outline-none focus:ring focus:ring-[#02C088] focus:ring-opacity-75;
+  }
+}
+
+
+@property --myColor1 {
+  syntax: '<color>';
+  initial-value: #1A70BA;
+  inherits: false;
+}
+
+@property --myColor2 {
+  syntax: '<color>';
+  initial-value: #02C088;
+  inherits: false;
+}
+
+.text-primary {
+  color: #00FFB4;
+}
+
+.text-secondary {
+  color: #02C088;
+}
+
+.text-tertiary {
+  color: #1A70BA;
+}
+
+p {
+  @apply text-base;
+  line-height: 1.8;
+}
+
+.list-faq li {
+  position: relative;
+}
+
+.list-faq .icon-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.input-field {
+  @apply flex p-0.5 bg-gradient-to-r from-[#1A70BA] to-[#02C088]
+}
