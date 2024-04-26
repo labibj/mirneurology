@@ -84,7 +84,7 @@ export default function Home() {
         <div className="w-full max-w-7xl mx-auto text-white relative flex flex-col">
           <div className="text-center lg:w-7/12 w-full mx-auto mb-5">
             <h3 className="title-h3">Reviews</h3>
-            <p className="lg:leading-[48px]">The reason we've received numerous awards? <span className="text-primary font-bold">Our patients appreciate</span> our care, which is the true measure of a neurology clinic's success.</p>
+            <p className="lg:leading-[48px]">The reason we&rsquo;ve received numerous awards? <span className="text-primary font-bold">Our patients appreciate</span> our care, which is the true measure of a neurology clinic&rsquo;s success.</p>
           </div>              
           <div className="text-center">
             <div className="flex flex-col gap-1 mb-10">
@@ -191,7 +191,7 @@ export default function Home() {
               />
               <p className="mb-5 font-medium">Finding a <span className="text-primary font-bold">neurologist</span> you can trust to address your neurological issues effectively among the many specialists in London can be quite challenging!</p>
               <p className="mb-5 font-medium">It can often be hard to determine which specialist truly has the expertise, skills, and experience in diagnostics and <span className="text-primary font-bold">treatment to deliver impactful</span>, lasting improvements to your health.</p>
-              <p className="mb-5 font-medium">That&rsquo;s where we step in. That's where <span className="lg:text-tertiary text-primary font-bold">Mir Neurological Clinic</span> provides exceptional care.</p>
+              <p className="mb-5 font-medium">That&rsquo;s where we step in. That&rsquo;s where <span className="lg:text-tertiary text-primary font-bold">Mir Neurological Clinic</span> provides exceptional care.</p>
               <Link href="" className="btn-primary rounded-full">
                 BOOK A CALL
               </Link>
@@ -401,7 +401,7 @@ export default function Home() {
             <div className="lg:w-5/12 w-full mx-auto text-center mb-5">
               <p className="font-medium">Our exceptional <span className="text-secondary">treatments are acknowledged.</span> We&rsquo;re recognized in the health industry.</p>
             </div>
-            <p className="font-medium">You're seeking the best <span className="text-secondary">neurological services</span> for your health. Top-rated neurology centers like Mayo Clinic, UC Health, and Cleveland Clinic recognize <span className="text-secondary">Mir Neurological Clinic</span> as one of the US's leading neurological providers.</p>
+            <p className="font-medium">You&rsquo;re seeking the best <span className="text-secondary">neurological services</span> for your health. Top-rated neurology centers like Mayo Clinic, UC Health, and Cleveland Clinic recognize <span className="text-secondary">Mir Neurological Clinic</span> as one of the US&rsquo;s leading neurological providers.</p>
           </div>
           <div className="lg:w-9/12 w-full mx-auto flex lg:flex-row flex-col">
             <div className="lg:w-5/12 w-full lg:text-left text-center">
@@ -435,7 +435,7 @@ export default function Home() {
           <div className="lg:w-9/12 w-full mx-auto flex lg:flex-row flex-col text-white">
             <div className="lg:w-6/12 lg:pr-12 w-full">
               <h4 className="title-h4 text-[#ffffff]">Ready to Schedule an Appointment at Mir Neurology for Your Health Checkup?</h4>
-              <h4 className="title-h4 text-[#ffffff]">You've Come To The Right Place.</h4>
+              <h4 className="title-h4 text-[#ffffff]">You&rsquo;ve Come To The Right Place.</h4>
               <Image
                 src="/schedule-an-appointment.webp"
                 alt="schedule-an-appointment"
@@ -445,8 +445,8 @@ export default function Home() {
                 loading="lazy"
               />
               <p className="lg:mb-10 mb-4">As top <span className="text-[#29F09E]">neurologist specialists</span> treating patients worldwide, we pride ourselves on showing our dedication to your health and well-being.</p>
-              <p className="lg:mb-10 mb-4">If you're tired of seeking neurology care from various sources, and want a team that offers valuable, <span className="text-[#29F09E]">legitimate treatments</span> with clear communication, transparency, and dedication to your health—then Mir Neurology is the perfect choice. </p>
-              <p className="lg:mb-10 mb-4"><span className="text-[#29F09E]">Our clinical</span> team offers complete care for various neurological diseases, including Alzheimer's and Parkinson's, epilepsy, multiple sclerosis, and more. Contact us to start your journey toward <span className="text-[#29F09E]">personalized treatment</span> and improved health.</p>
+              <p className="lg:mb-10 mb-4">If you&rsquo;re tired of seeking neurology care from various sources, and want a team that offers valuable, <span className="text-[#29F09E]">legitimate treatments</span> with clear communication, transparency, and dedication to your health—then Mir Neurology is the perfect choice. </p>
+              <p className="lg:mb-10 mb-4"><span className="text-[#29F09E]">Our clinical</span> team offers complete care for various neurological diseases, including Alzheimer&rsquo;s and Parkinson&rsquo;s, epilepsy, multiple sclerosis, and more. Contact us to start your journey toward <span className="text-[#29F09E]">personalized treatment</span> and improved health.</p>
               <Link href="" className="btn-primary rounded-full">
                 BOOK A CALL
               </Link>
@@ -805,7 +805,7 @@ export default function Home() {
               <div className="w-6/12">
                 <h4 className="title-h4 text-[#1A70BA]">Stage 3</h4>
                 <div className="title-h6">Neurology Treatment Plan</div>
-                <p className="mb-12">Following our assessment and diagnosis, we'll develop a personalized treatment plan designed for your specific neurological needs.</p>                
+                <p className="mb-12">Following our assessment and diagnosis, we&rsquo;ll develop a personalized treatment plan designed for your specific neurological needs.</p>                
                 <p className="mb-12">We will continuously adjust our treatment approach based on your progress, ensuring you receive the most effective care. Additionally, we will keep you informed of all steps and decisions before implementing them.</p>
                 <Link href="" className="btn-primary rounded-full">
                   FIND IT MORE
@@ -816,7 +816,7 @@ export default function Home() {
               <div className="lg:w-5/12 w-full lg:pr-6">
                 <h4 className="title-h4 text-[#1A70BA]">Stage 4</h4>
                 <div className="title-h6">Treatment Implementation</div>
-                <p className="mb-12">Once we agree on your personalized treatment plan, we'll begin the process. Your care will be managed by our skilled neurology specialists, and we'll keep you closely informed throughout your treatment journey.</p>
+                <p className="mb-12">Once we agree on your personalized treatment plan, we&rsquo;ll begin the process. Your care will be managed by our skilled neurology specialists, and we&rsquo;ll keep you closely informed throughout your treatment journey.</p>
                 <Link href="" className="btn-primary rounded-full">
                   OUR SERVICE
                 </Link>
@@ -846,8 +846,8 @@ export default function Home() {
               <div className="lg:w-6/12 w-full">
                 <h4 className="title-h4 text-[#1A70BA]">Stage 5</h4>
                 <div className="title-h6">Neurology Consultation</div>
-                <p className="mb-12">During your consultation, we'll provide you with resources for a deeper understanding of your condition and potential treatments. We empower you with knowledge and tools to help you actively participate in your care both during our work together and beyond.</p>                
-                <p className="mb-12">We believe in transparency and in equipping you with the information you need.A poor healthcare provider may keep you in the dark about your treatment options, but that's not our approach. </p>
+                <p className="mb-12">During your consultation, we&rsquo;ll provide you with resources for a deeper understanding of your condition and potential treatments. We empower you with knowledge and tools to help you actively participate in your care both during our work together and beyond.</p>                
+                <p className="mb-12">We believe in transparency and in equipping you with the information you need.A poor healthcare provider may keep you in the dark about your treatment options, but that&rsquo;s not our approach. </p>
                 <p className="mb-12">We want you to understand the strategies and treatments we use for your neurological health, offering you resources to review at your convenience.</p>
                 <Link href="" className="btn-primary rounded-full">
                   CHECK OUT OUR COURESS
@@ -855,12 +855,12 @@ export default function Home() {
               </div>
             </div>
             <div className="flex lg:flex-row flex-col justify-between">
-              <div className="lg:w-5/12 w-full lg:pr-6">
+              <div className="lg:w-5/12 w-full lg:pr-6 pr-0">
                 <h4 className="title-h4 text-[#1A70BA]">Stage 6</h4>
                 <div className="title-h6">Neurology Report</div>
                 <p className="mb-12">The data we gather helps us translate insights into strategies for your neurological health. We will provide clear, digestible reports and data audits, using this information to maximize the effectiveness of our treatment.</p>
                 <p className="mb-12">Our neurology analytics continually identify opportunities to enhance care, adjust treatment plans, or explore new approaches for better outcomes. For instance, if a particular treatment approach leads to high patient dissatisfaction, we may need to reassess its suitability or relevance.</p>
-                <p className="mb-12">Effective neurology care often requires long-term planning and adjustments to ensure consistent, measurable improvement. Quality analytics involves more than tracking specific outcomes; it's a comprehensive analysis of performance designed to drive positive results. For more details about our services and locations, please reach out to us.</p>
+                <p className="mb-12">Effective neurology care often requires long-term planning and adjustments to ensure consistent, measurable improvement. Quality analytics involves more than tracking specific outcomes; it&rsquo;s a comprehensive analysis of performance designed to drive positive results. For more details about our services and locations, please reach out to us.</p>
                 <Link href="" className="btn-primary rounded-full">
                   LEARN MORE
                 </Link>
