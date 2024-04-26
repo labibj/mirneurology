@@ -35,29 +35,29 @@ interface LogoSliderProps {
 const LogoSlider: React.FC<LogoSliderProps> = ({ data }) => {
   return (
           <Swiper
-            autoplay={true}
+            autoplay={false}
             loop={true}
             slidesPerView="auto"
             breakpoints={{
               320: {
                 slidesPerView: 2,
-                spaceBetween: 30,
+                spaceBetween: 5,
               },
               640: {
+                slidesPerView: 2,
+                spaceBetween: 5,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+              },
+              1024: {
                 slidesPerView: 3,
                 spaceBetween: 10,
               },
-              768: {
-                slidesPerView: 3,
-                spaceBetween: 20,
-              },
-              1024: {
-                slidesPerView: 5,
-                spaceBetween: 30,
-              },
               1025: {
-                slidesPerView: 6,
-                spaceBetween: 30,
+                slidesPerView: 4,
+                spaceBetween: 10,
               },
             }}
             modules={[Autoplay, Navigation, Pagination]}
@@ -67,15 +67,15 @@ const LogoSlider: React.FC<LogoSliderProps> = ({ data }) => {
                 <div
                   className=""
                   style={{
-                    background: `url(${image}) center center / cover scroll no-repeat`,
+                    background: `url(${image}) center center scroll no-repeat`,
                   }}
                 >
                   <Image
                     src="/logo_1.png"
                     alt="Logo"
                     className="opacity-0	"
-                    width={185}
-                    height={132}
+                    width={149}
+                    height={88}
                     loading="lazy"
                   />
                 </div>

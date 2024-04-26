@@ -58,9 +58,9 @@ const Header = () => {
 
   return (
     <header
-      className={ "header transition z-20 nav flex flex-col mx-auto left-0 right-0 top-0 bg-white shadow-lg fixed delay-100 bg-gradient-to-b from-[#1A70BA] to-[#02C088] " + hState }
+      className={ "header transition z-20 nav lg:py-0 py-2 flex flex-col mx-auto left-0 right-0 top-0 bg-white shadow-lg fixed delay-100 bg-gradient-to-b from-[#1A70BA] to-[#02C088] " + hState }
       >
-      <div className="bg-black py-6 w-full px-4 lg:px-0">
+      <div className="bg-black py-6 w-full px-4 lg:px-0 hidden lg:block">
         <div className="flex gap-8 max-w-7xl mx-auto justify-center">
           <Link href={''} className="text-[#ffffff] hover:text-[#1A70BA] flex items-center gap-2 text-lg font-bold transition duration-500">
             <AiFillPhone size={24} className="scale-x-[-1]" /> UK: +442071833436
@@ -144,7 +144,7 @@ const Header = () => {
           onClick={() => setNav(!nav)}
           className="cursor-pointer z-10 text-gray-500 lg:hidden"
         >
-          {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
+          {nav ? <AiOutlineClose size={30} className="text-white" /> : <AiOutlineMenu size={30} className="text-white" />}
         </div>
 
         {nav && (
