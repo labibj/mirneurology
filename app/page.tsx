@@ -33,10 +33,10 @@ export default function Home() {
           <form>
               <div className="flex flex-col gap-5">
                 <div className="input-field">
-                  <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="Email" id="name" />
+                  <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="Email" id="" />
                 </div>
                 <div className="input-field">
-                  <input type="email" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="Phone" id="phone" />
+                  <input type="email" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="Phone" id="" />
                 </div>
                 <div className="flex w-full">
                   <button type="submit" className="btn-secondary w-full">Send</button>
@@ -1031,19 +1031,19 @@ export default function Home() {
                 <div>
                   <label className="label text-[#1A70BA] mb-2 block">Name</label>
                   <div className="input-field">                  
-                    <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="" id="name" />
+                    <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="" id="" />
                   </div>
                 </div>
                 <div>
                   <label className="label text-[#1A70BA] mb-2 block">Email</label>
                   <div className="input-field">                  
-                    <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="" id="email" />
+                    <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="" id="" />
                   </div>
                 </div>
                 <div>
                   <label className="label text-[#1A70BA] mb-2 block">Phone</label>
                   <div className="input-field">                  
-                    <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="" id="phone" />
+                    <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="" id="" />
                   </div>
                 </div>
                 <div>
