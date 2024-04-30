@@ -32,9 +32,11 @@ export default function Home() {
           <p className="text-xl text-[#8C8C8C] font-bold mb-6">We are an experienced team of neurologists operating in the Hagerstown area.</p>
           <form>
               <div className="flex flex-col gap-5">
+                <label className="sr-only">Email</label>
                 <div className="input-field">
                   <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="Email" id="" />
                 </div>
+                <label className="sr-only">Phone</label>
                 <div className="input-field">
                   <input type="email" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="Phone" id="" />
                 </div>
@@ -683,13 +685,16 @@ export default function Home() {
                 />
                 <form>
                   <div className="flex flex-col gap-6">
-                    <div className="input-field">
+                  <label className="sr-only">Enter Website</label>
+                    <div className="input-field">                      
                       <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="Enter website" id="" />
                     </div>
-                    <div className="input-field">
+                    <label className="sr-only">Your email</label>
+                    <div className="input-field">                      
                       <input type="email" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="Your email" id="" />
                     </div>
-                    <div className="input-field">
+                    <label className="sr-only">Your phone</label>
+                    <div className="input-field">                      
                       <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="Your phone" id="" />
                     </div>
                     <div className="flex w-full justify-center lg:justify-start">
