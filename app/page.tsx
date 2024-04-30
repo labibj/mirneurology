@@ -1,6 +1,7 @@
 import Image from "next/image";
 import LogoSlider from "./_components/LogoSlider";
 import dataLogoSlider from "./_data/logo-slider-data.json";
+import dataLogoSliderSm from "./_data/logo-slider-data-sm.json";
 import Link from "next/link";
 import { AiOutlineRight } from "react-icons/ai";
 
@@ -16,8 +17,8 @@ export default function Home() {
    }
   return (
     <main className="">
-      <div className="grid lg:grid-cols-2 grid-cols-1 w-full max-w-7xl mx-auto lg:pt-56 lg:pb-0 pt-24 pb-10 px-5 lg:px-0">
-        <div  className="self-center">
+      <div className="grid lg:grid-cols-2 grid-cols-1 w-full max-w-7xl mx-auto lg:pt-56 xl:pb-0 pt-24 pb-8 px-5 xl:px-0">
+        <div  className="self-center lg:text-left text-center">
           <h1 className="title-h1"><span className="font-bold">Top Rated Neurology Clinic</span> in Hagerstown</h1>
           <h2 className="title-h2">Your well-being is our priority</h2>
           <Image
@@ -54,25 +55,25 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="relative flex lg:h-80 h-auto items-center lg:mb-0 mb-8">
+      <div className="relative flex xl:h-80 lg:h-48 h-auto items-center xl:mb-0 mb-8 bg-gradient-to-t from-[#1A70BA] to-[#02C088] xl:bg-none py-3 lg:py-0">
             <Image
               src="/illustration-logos.webp"
               alt="illustration-logos"
-              className="absolute top-0 left-0 hidden lg:block"
+              className="absolute top-0 left-0 hidden xl:block"
               width={0}
               height={0}
               sizes="100vw"
               style={{ width: '100%', height: 'auto' }} // optional
               loading="lazy"
             />
-            <div className="max-w-7xl lg:w-5/12 w-full hidden lg:block mx-auto">
+            <div className="max-w-7xl xl:w-7/12 lg:w-10/12 w-full mx-auto hidden lg:block">
               <LogoSlider data={dataLogoSlider} />
             </div>
-            <div className="max-w-7xl lg:w-5/12 w-full mx-auto bg-gradient-to-t from-[#1A70BA] to-[#02C088] block lg:hidden py-3">
-              <LogoSlider data={dataLogoSlider} />
+            <div className="max-w-7xl xl:w-7/12 lg:w-10/12 w-full mx-auto block lg:hidden">
+              <LogoSlider data={dataLogoSliderSm} />
             </div>
       </div>
-      <div className="relative lg:h-[987px] flex flex-col justify-center bg-gradient-to-t from-[#1A70BA] to-[#02C088] lg:bg-none lg:py-0 py-8 lg:px-0 px-5">
+      <div className="relative xl:h-[987px] lg:h-[535px] flex flex-col justify-center bg-gradient-to-t from-[#1A70BA] to-[#02C088] lg:bg-none lg:py-0 py-8 lg:px-0 px-5">
         <Image
           src="/illustration-reviews.webp"
           alt="illustration-reviews"
@@ -84,48 +85,48 @@ export default function Home() {
         <div className="w-full max-w-7xl mx-auto text-white relative flex flex-col">
           <div className="text-center lg:w-7/12 w-full mx-auto mb-5">
             <h3 className="title-h3">Reviews</h3>
-            <p className="lg:leading-[48px]">The reason we&rsquo;ve received numerous awards? <span className="text-primary font-bold">Our patients appreciate</span> our care, which is the true measure of a neurology clinic&rsquo;s success.</p>
+            <p className="xl:leading-[48px] lg:leading-[24px]">The reason we&rsquo;ve received numerous awards? <span className="text-primary font-bold">Our patients appreciate</span> our care, which is the true measure of a neurology clinic&rsquo;s success.</p>
           </div>              
           <div className="text-center">
-            <div className="flex flex-col gap-1 mb-10">
-              <span className="text-4xl font-semibold">636+</span>
+            <div className="flex flex-col gap-1 xl:mb-10 lg:mb-5 mb-4">
+              <span className="xl:text-4xl lg:text-3xl text-2xl font-semibold">636+</span>
               <span className="text-xs">TOTAL REVIEWS</span>
             </div>
-            <div className="grid grid-cols-3 gap-8">
+            <div className="grid grid-cols-3 xl:gap-8 lg:gap-4 gap-4">
               <div className="flex flex-col gap-1">
-                <span className="text-4xl font-semibold">171+</span>
+                <span className="xl:text-4xl lg:text-3xl text-2xl font-semibold">171+</span>
                 <span className="text-xs">ON GOOGLE</span>
               </div>
               <div className="flex flex-col gap-1">
-                <span className="text-4xl font-semibold">121+</span>
+                <span className="xl:text-4xl lg:text-3xl text-2xl font-semibold">121+</span>
                 <span className="text-xs">ON TRUSTPILOT</span>
               </div>
               <div className="flex flex-col gap-1">
-                <span className="text-4xl font-semibold">141+</span>
+                <span className="xl:text-4xl lg:text-3xl text-2xl font-semibold">141+</span>
                 <span className="text-xs">ON GLASSDOOR</span>
               </div>
               <div className="flex flex-col gap-1">
-                <span className="text-4xl font-semibold">63+</span>
+                <span className="xl:text-4xl lg:text-3xl text-2xl font-semibold">63+</span>
                 <span className="text-xs">ON FACEBOOK</span>
               </div>
               <div className="flex flex-col gap-1">
-                <span className="text-4xl font-semibold">11+</span>
+                <span className="xl:text-4xl lg:text-3xl text-2xl font-semibold">11+</span>
                 <span className="text-xs">ON YELL</span>
               </div>
               <div className="flex flex-col gap-1">
-                <span className="text-4xl font-semibold">30+</span>
+                <span className="xl:text-4xl lg:text-3xl text-2xl font-semibold">30+</span>
                 <span className="text-xs">ON UPWORK</span>
               </div>
               <div className="flex flex-col gap-1">
-                <span className="text-4xl font-semibold">68+</span>
+                <span className="xl:text-4xl lg:text-3xl text-2xl font-semibold">68+</span>
                 <span className="text-xs">ON CLUTCH</span>
               </div>
               <div className="flex flex-col gap-1">
-                <span className="text-4xl font-semibold">20+</span>
+                <span className="xl:text-4xl lg:text-3xl text-2xl font-semibold">20+</span>
                 <span className="text-xs">ON INDEED</span>
               </div>
               <div className="flex flex-col gap-1">
-                <span className="text-4xl font-semibold">11+</span>
+                <span className="xl:text-4xl lg:text-3xl text-2xl font-semibold">11+</span>
                 <span className="text-xs">ON DESIGN RUSH</span>
               </div>
             </div>
@@ -158,11 +159,11 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="relative lg:h-[708px] flex flex-col justify-center lg:mb-32 mb-16 bg-gradient-to-t from-[#1A70BA] to-[#02C088] lg:bg-none lg:py-0 py-8 lg:px-0 px-5">
+      <div className="relative xl:h-[708px] lg:h-[550px] flex flex-col justify-center lg:mb-16 mb-0 bg-gradient-to-t from-[#1A70BA] to-[#02C088] xl:bg-none lg:py-0 py-8 lg:px-0 px-5">
         <Image
           src="/illustration-1.webp"
           alt="illustration-1"
-          className="absolute top-0 left-0 right-0 bottom-0 mx-auto object-contain hidden lg:block"
+          className="absolute top-0 left-0 right-0 bottom-0 mx-auto object-contain hidden xl:block"
           width={1920}
           height={708}
           loading="lazy"
@@ -179,12 +180,12 @@ export default function Home() {
                 loading="lazy"
               />
             </div>
-            <div className="self-center lg:w-5/12 w-full">
+            <div className="self-center lg:w-5/12 w-full text-center lg:text-left">
               <h3 className="title-h3">Looking for a Neurological Clinic That Delivers Exceptional Care?</h3>
               <Image
                 src="/neurological-clinic.webp"
                 alt="neurological-clinic"
-                className="object-cover	block lg:hidden mb-5"
+                className="object-cover	block lg:hidden mb-5 mx-auto"
                 width={650}
                 height={438}
                 loading="lazy"
@@ -199,23 +200,23 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="relative lg:h-[1802px] max-w-[1920px] mx-auto w-full flex flex-col lg:px-0 px-5">
+      <div className="relative xl:h-[1802px] max-w-[1920px] mx-auto w-full flex flex-col lg:px-0 px-5 pt-8 lg:pt-0">
         <Image
           src="/illustration-2.webp"
           alt="illustration-2"
-          className="absolute top-0 left-0 mx-auto object-contain"
+          className="absolute top-0 left-0 mx-auto object-contain hidden lg:block"
           width={1285}
           height={1802}
           loading="lazy"
         />
-        <div className="w-full max-w-7xl mx-auto relative lg:pt-24">
-          <div className="lg:w-11/12 w-full mx-auto text-center mb-20">
+        <div className="w-full max-w-7xl mx-auto relative lg:pt-12">
+          <div className="lg:w-11/12 w-full mx-auto text-center lg:mb-20 mb-4">
             <h3 className="title-h3 text-[#1A70BA]">Our Featured Services</h3>
             <p className="mb-5 font-medium">Enhance Your Health Today with Our <span className="text-secondary font-extrabold">Proven Neurology Services.</span></p>
             <p className="font-medium">The neurology field is more competitive than ever. You need a clinic with the <span className="text-secondary font-extrabold">expertise to place your health where it belongs:</span> in the hands of top specialists. As a full-service neurology clinic, we have the tools, experience, and proven success to do just that and more.</p>
           </div>
-          <div className="w-10/12 mx-auto grid lg:grid-cols-3 grid-cols-1 lg:gap-16 gap-8">
-            <div className="card bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
+          <div className="w-10/12 mx-auto grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 lg:gap-16 gap-8">
+            <div className="card lg:items-start items-center text-center lg:text-left bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
               <div className="mb-5">
                 <Image
                   src="/icon-migraine.svg"
@@ -232,7 +233,7 @@ export default function Home() {
                 <Link href={''} className="border-b-2 border-b-[#02C088]">LEARN MORE</Link>
               </div>              
             </div>
-            <div className="card bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
+            <div className="card lg:items-start items-center text-center lg:text-left bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
               <div className="mb-5">
                 <Image
                   src="/icon-migraine.svg"
@@ -249,7 +250,7 @@ export default function Home() {
                 <Link href={''} className="border-b-2 border-b-[#02C088]">LEARN MORE</Link>
               </div>              
             </div>
-            <div className="card bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
+            <div className="card lg:items-start items-center text-center lg:text-left bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
               <div className="mb-5">
                 <Image
                   src="/icon-migraine.svg"
@@ -266,7 +267,7 @@ export default function Home() {
                 <Link href={''} className="border-b-2 border-b-[#02C088]">LEARN MORE</Link>
               </div>              
             </div>
-            <div className="card bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
+            <div className="card lg:items-start items-center text-center lg:text-left bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
               <div className="mb-5">
                 <Image
                   src="/icon-migraine.svg"
@@ -283,7 +284,7 @@ export default function Home() {
                 <Link href={''} className="border-b-2 border-b-[#02C088]">LEARN MORE</Link>
               </div>              
             </div>
-            <div className="card bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
+            <div className="card lg:items-start items-center text-center lg:text-left bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
               <div className="mb-5">
                 <Image
                   src="/icon-migraine.svg"
@@ -300,7 +301,7 @@ export default function Home() {
                 <Link href={''} className="border-b-2 border-b-[#02C088]">LEARN MORE</Link>
               </div>              
             </div>
-            <div className="card bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
+            <div className="card lg:items-start items-center text-center lg:text-left bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
               <div className="mb-5">
                 <Image
                   src="/icon-migraine.svg"
@@ -317,7 +318,7 @@ export default function Home() {
                 <Link href={''} className="border-b-2 border-b-[#02C088]">LEARN MORE</Link>
               </div>              
             </div>
-            <div className="card bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
+            <div className="card lg:items-start items-center text-center lg:text-left bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
               <div className="mb-5">
                 <Image
                   src="/icon-migraine.svg"
@@ -334,7 +335,7 @@ export default function Home() {
                 <Link href={''} className="border-b-2 border-b-[#02C088]">LEARN MORE</Link>
               </div>              
             </div>
-            <div className="card bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
+            <div className="card lg:items-start items-center text-center lg:text-left bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
               <div className="mb-5">
                 <Image
                   src="/icon-migraine.svg"
@@ -351,7 +352,7 @@ export default function Home() {
                 <Link href={''} className="border-b-2 border-b-[#02C088]">LEARN MORE</Link>
               </div>              
             </div>
-            <div className="card bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
+            <div className="card lg:items-start items-center text-center lg:text-left bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
               <div className="mb-5">
                 <Image
                   src="/icon-migraine.svg"
@@ -372,16 +373,16 @@ export default function Home() {
         </div>
       </div>
       <div className="w-full max-w-7xl mx-auto lg:py-16 py-8 lg:px-0 px-5">
-        <div className="flex lg:flex-row flex-col gap-2 justify-center">
+        <div className="lg:w-9/12 md:w-10/12 mx-auto flex lg:flex-row flex-col gap-2 justify-center">
           <Image
             src="/we-practice-what-we-preach.webp"
             alt="we-practice-what-we-preach"
-            className=""
+            className="self-center md:w-full lg:w-auto"
             width={623}
             height={431}
             loading="lazy"
           />
-          <div className="lg:rounded-r-2xl rounded-xl bg-gradient-to-t from-[#1A70BA] to-[#02C088] flex flex-col justify-center px-12 break-normal text-center lg:w-4/12 w-full lg:py-0 py-8">
+          <div className="lg:rounded-r-2xl lg:rounded-l-none rounded-xl bg-gradient-to-t from-[#1A70BA] to-[#02C088] flex flex-col justify-center px-12 break-normal text-center lg:w-4/12 w-full lg:py-0 py-8">
             <div className="text-white font-semibold text-lg">&rsquo;We Practice What<br /> We Preach!&rsquo;</div>
           </div>
         </div>
@@ -422,18 +423,18 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="relative lg:h-[881px] flex flex-col justify-center lg:-mt-12  bg-gradient-to-t from-[#1A70BA] to-[#02C088] lg:bg-none lg:py-0 py-8 lg:px-0 px-5">
+      <div className="relative xl:h-[881px] flex flex-col justify-center lg:-mt-12 bg-gradient-to-t from-[#1A70BA] to-[#02C088] xl:bg-none xl:py-0 lg:py-16 py-8 lg:px-0 px-5">
         <Image
           src="/illustration-3.webp"
           alt="illustration-3"
-          className="absolute top-0 left-0 right-0 bottom-0 mx-auto object-contain hidden lg:block"
+          className="absolute top-0 left-0 right-0 bottom-0 mx-auto object-contain hidden xl:block"
           width={1920}
           height={881}
           loading="lazy"
         />
         <div className="w-full max-w-7xl mx-auto relative">
           <div className="lg:w-9/12 w-full mx-auto flex lg:flex-row flex-col text-white">
-            <div className="lg:w-6/12 lg:pr-12 w-full">
+            <div className="lg:w-6/12 lg:pr-12 w-full lg:text-left text-center">
               <h4 className="title-h4 text-[#ffffff]">Ready to Schedule an Appointment at Mir Neurology for Your Health Checkup?</h4>
               <h4 className="title-h4 text-[#ffffff]">You&rsquo;ve Come To The Right Place.</h4>
               <Image
@@ -464,10 +465,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="lg:py-40 lg:-mt-24 bg-[#e8f1f8] lg:py-0 py-8 lg:px-0 px-5">
+      <div className="xl:py-40 lg:py-16 xl:-mt-24 bg-[#e8f1f8] lg:py-0 py-8 lg:px-0 px-5">
         <div className="w-full max-w-7xl mx-auto text-center">
           <h3 className="title-h3 text-[#1A70BA]">We Have Worked With:</h3>
-          <div className="grid lg:grid-cols-6 grid-cols-2 gap-8">
+          <div className="grid xl:grid-cols-6 lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-8 items-center justify-items-center">
             <div>
               <Image
                 src="/brands/logo-1.webp"
@@ -591,17 +592,17 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="relative lg:h-[724px] flex flex-col justify-center lg:-m-24 lg:py-0 py-8 lg:px-0 px-5  bg-gradient-to-t from-[#1A70BA] to-[#02C088] lg:bg-none">
+      <div className="relative xl:h-[724px] flex flex-col justify-center xl:-m-24 xl:py-0 lg:py-16 py-8 xl:px-0 px-5  bg-gradient-to-t from-[#1A70BA] to-[#02C088] xl:bg-none">
         <Image
           src="/illustration-4.webp"
           alt="illustration-4"
-          className="absolute top-0 left-0 right-0 bottom-0 mx-auto object-contain hidden lg:block"
+          className="absolute top-0 left-0 right-0 bottom-0 mx-auto object-contain hidden xl:block"
           width={1920}
           height={724}
           loading="lazy"
         />
         <div className="w-full max-w-7xl mx-auto text-white relative">
-          <div className="flex lg:flex-row flex-col gap-8">
+          <div className="flex lg:flex-row flex-col lg:gap-8 items-center">
             <div className="w-6/12">
               <Image
                 src="/insurance-information.webp"
@@ -617,7 +618,7 @@ export default function Home() {
               <Image
                 src="/insurance-information.webp"
                 alt="insurance-information"
-                className="w-full block lg:hidden"
+                className="w-full block lg:hidden mb-4"
                 width={554}
                 height={315}
                 loading="lazy"
@@ -630,14 +631,14 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="lg:py-40 py-8">
+      <div className="xl:py-40 lg:py-16 py-8">
         <div className="w-full max-w-7xl mx-auto">
           <div className="w-10/12 mx-auto">          
-            <div className="text-center lg:mb-24 mb-8">
+            <div className="text-center xl:mb-24 mb-8">
               <h3 className="title-h3 text-[#1A70BA]">Watch Our Case Study Videos</h3>
               <p className="">Talk is cheap, so we don&rsquo;t just say what we can do – we can show you! <span className="text-primary">Our rankings</span> SEO campaigns have a track record of not just ranking our client&rsquo;s sites on page 1 of Google but much more besides. You can expect an <span className="text-primary">improved user experience</span>, more traffic, better conversion rates, increased brand awareness and more.</p>
             </div>          
-            <div className="grid lg:grid-cols-3 grid-cols-1 gap-8 lg:mb-32 mb-8">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 xl:mb-32 lg:mb-16 mb-8">
               <div>
                 <Image
                   src="/case-study.webp"
@@ -691,7 +692,7 @@ export default function Home() {
                     <div className="input-field">
                       <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="Your phone" id="" />
                     </div>
-                    <div className="flex w-full">
+                    <div className="flex w-full justify-center lg:justify-start">
                       <button type="submit" className="btn-secondary rounded-full">Get My Audit</button>
                     </div>
                   </div>
@@ -711,11 +712,11 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="relative max-w-[1920px] mx-auto w-full flex flex-col lg:mb-24 mb-8 lg:px-0 px-5 bg-[#e8f1f8] lg:bg-transparent">
+      <div className="relative max-w-[1920px] mx-auto w-full flex flex-col xl:mb-24 mb-0 lg:px-0 px-5 bg-[#e8f1f8] lg:bg-transparent">
         <Image
           src="/illustration-5.webp"
           alt="illustration-5"
-          className="absolute top-0 left-0 mx-auto"
+          className="absolute top-0 left-0 mx-auto hidden lg:block"
           width={1920}
           height={4000}
           loading="lazy"
@@ -723,15 +724,15 @@ export default function Home() {
         <Image
           src="/illustration-6.webp"
           alt="illustration-6"
-          className="absolute top-[22.5%] right-0"
+          className="absolute top-[22.5%] right-0 hidden lg:block"
           width={1500}
           height={1885}
           loading="lazy"
         />
-        <div className="w-full max-w-7xl mx-auto relative lg:pt-48 lg:pb-0 py-8">
-          <div className="lg:w-6/12 w-full mx-auto text-center lg:mb-20 mb-10">
+        <div className="w-full max-w-7xl mx-auto relative xl:pt-48 lg:pt-24 lg:pb-0 py-8 lg:text-left text-center">
+          <div className="lg:w-6/12 w-full mx-auto text-center lg:mb-20 mb-5">
             <h3 className="title-h3 text-[#1A70BA]">How do we Deliver our SEO Services? Overdeliver - For every client.</h3>
-            <p className="mb-5 font-medium"><span className="text-secondary">6 Stages</span> from Discovery to Reporting</p>
+            <p className="font-medium"><span className="text-secondary">6 Stages</span> from Discovery to Reporting</p>
           </div>
           <div className="lg:w-11/12 w-full mx-auto flex flex-col gap-12">
             <div className="flex lg:flex-row flex-col justify-between">
@@ -746,18 +747,18 @@ export default function Home() {
                 />
               </div>
               <div className="lg:w-6/12 w-full">
-                <h4 className="title-h4 text-[#1A70BA]">Stage 1 – Discovery Call</h4>
+                <h4 className="title-h4 text-[#1A70BA]">Stage 1 - Discovery Call</h4>
                 <div className="title-h6">CUSTOMER DISCOVERY CALL</div>
                 <Image
                   src="/stage-1-discovery-call.webp"
                   alt="stage-1-discovery-call"
-                  className="block lg:hidden mb-4"
+                  className="block lg:hidden mb-4 mx-auto"
                   width={403}
                   height={410}
                   loading="lazy"
                 />
                 <p className="lg:mb-12 mb-3">At this stage, we take the time to fully understand your health concerns and goals. We&rsquo;ll ask questions to gain insight into:</p>
-                <ul className="list-none with-bullets lg:pl-12 lg:pr-32 flex flex-col gap-2 mb-12">
+                <ul className="list-none with-bullets lg:pl-12 lg:pr-32 flex flex-col gap-2 lg:mb-12 mb-6">
                   <li><span className="icon-bullet">&bull;</span> Your medical history, current health issues, and the care you seek from us.</li>
                   <li><span className="icon-bullet">&bull;</span> Other treatments you&rsquo;ve tried or are currently undergoing, and their effectiveness.</li>
                   <li><span className="icon-bullet">&bull;</span> Your specific symptoms and how they impact your daily life.</li>
@@ -771,11 +772,19 @@ export default function Home() {
             </div>
             <div className="flex lg:flex-row flex-col justify-between">
               <div className="lg:w-5/12 w-full lg:pr-6">
-                <h4 className="title-h4 text-[#1A70BA]">Stage 2 – Discovery Call</h4>
+                <h4 className="title-h4 text-[#1A70BA]">Stage 2 - Discovery Call</h4>
                 <div className="title-h6">OUR AUDIT SERVICE</div>
-                <p className="mb-12">Conducting a thorough evaluation of your neurological condition is crucial.</p>                
-                <p className="mb-12">This allows us to identify the underlying issues affecting your health and well-being.</p>
-                <p className="mb-12">Our specialists will perform a personalized assessment tailored to your specific needs and offer actionable recommendations for your treatment plan, rather than a generic approach used for every patient.</p>
+                <Image
+                  src="/stage-2.webp"
+                  alt="stage-2"
+                  className="block lg:hidden mb-4 mx-auto"
+                  width={437}
+                  height={379}
+                  loading="lazy"
+                />
+                <p className="lg:mb-12 mb-6">Conducting a thorough evaluation of your neurological condition is crucial.</p>                
+                <p className="lg:mb-12 mb-6">This allows us to identify the underlying issues affecting your health and well-being.</p>
+                <p className="lg:mb-12 mb-6">Our specialists will perform a personalized assessment tailored to your specific needs and offer actionable recommendations for your treatment plan, rather than a generic approach used for every patient.</p>
                 <Link href="" className="btn-primary rounded-full">
                   REQUEST AUDIT
                 </Link>
@@ -784,7 +793,7 @@ export default function Home() {
                 <Image
                   src="/stage-2.webp"
                   alt="stage-2"
-                  className=""
+                  className="hidden lg:block"
                   width={437}
                   height={379}
                   loading="lazy"
@@ -796,17 +805,25 @@ export default function Home() {
                 <Image
                   src="/stage-3.webp"
                   alt="stage-3"
-                  className=""
+                  className="hidden lg:block"
                   width={361}
                   height={351}
                   loading="lazy"
                 />
               </div>
-              <div className="w-6/12">
+              <div className="lg:w-6/12 w-full">
                 <h4 className="title-h4 text-[#1A70BA]">Stage 3</h4>
                 <div className="title-h6">Neurology Treatment Plan</div>
-                <p className="mb-12">Following our assessment and diagnosis, we&rsquo;ll develop a personalized treatment plan designed for your specific neurological needs.</p>                
-                <p className="mb-12">We will continuously adjust our treatment approach based on your progress, ensuring you receive the most effective care. Additionally, we will keep you informed of all steps and decisions before implementing them.</p>
+                <Image
+                  src="/stage-3.webp"
+                  alt="stage-3"
+                  className="block lg:hidden mb-4 mx-auto"
+                  width={361}
+                  height={351}
+                  loading="lazy"
+                />
+                <p className="lg:mb-12 mb-6">Following our assessment and diagnosis, we&rsquo;ll develop a personalized treatment plan designed for your specific neurological needs.</p>                
+                <p className="lg:mb-12 mb-6">We will continuously adjust our treatment approach based on your progress, ensuring you receive the most effective care. Additionally, we will keep you informed of all steps and decisions before implementing them.</p>
                 <Link href="" className="btn-primary rounded-full">
                   FIND IT MORE
                 </Link>
@@ -816,7 +833,15 @@ export default function Home() {
               <div className="lg:w-5/12 w-full lg:pr-6">
                 <h4 className="title-h4 text-[#1A70BA]">Stage 4</h4>
                 <div className="title-h6">Treatment Implementation</div>
-                <p className="mb-12">Once we agree on your personalized treatment plan, we&rsquo;ll begin the process. Your care will be managed by our skilled neurology specialists, and we&rsquo;ll keep you closely informed throughout your treatment journey.</p>
+                <Image
+                  src="/stage-4.webp"
+                  alt="stage-4"
+                  className="block lg:hidden mb-4 mx-auto"
+                  width={415}
+                  height={362}
+                  loading="lazy"
+                />
+                <p className="lg:mb-12 mb-6">Once we agree on your personalized treatment plan, we&rsquo;ll begin the process. Your care will be managed by our skilled neurology specialists, and we&rsquo;ll keep you closely informed throughout your treatment journey.</p>
                 <Link href="" className="btn-primary rounded-full">
                   OUR SERVICE
                 </Link>
@@ -825,7 +850,7 @@ export default function Home() {
                 <Image
                   src="/stage-4.webp"
                   alt="stage-4"
-                  className=""
+                  className="hidden lg:block"
                   width={415}
                   height={362}
                   loading="lazy"
@@ -837,7 +862,7 @@ export default function Home() {
                 <Image
                   src="/stage-5.webp"
                   alt="stage-5"
-                  className=""
+                  className="hidden lg:block"
                   width={387}
                   height={504}
                   loading="lazy"
@@ -846,9 +871,17 @@ export default function Home() {
               <div className="lg:w-6/12 w-full">
                 <h4 className="title-h4 text-[#1A70BA]">Stage 5</h4>
                 <div className="title-h6">Neurology Consultation</div>
-                <p className="mb-12">During your consultation, we&rsquo;ll provide you with resources for a deeper understanding of your condition and potential treatments. We empower you with knowledge and tools to help you actively participate in your care both during our work together and beyond.</p>                
-                <p className="mb-12">We believe in transparency and in equipping you with the information you need.A poor healthcare provider may keep you in the dark about your treatment options, but that&rsquo;s not our approach. </p>
-                <p className="mb-12">We want you to understand the strategies and treatments we use for your neurological health, offering you resources to review at your convenience.</p>
+                <Image
+                  src="/stage-5.webp"
+                  alt="stage-5"
+                  className="block lg:hidden mb-4 mx-auto"
+                  width={387}
+                  height={504}
+                  loading="lazy"
+                />
+                <p className="lg:mb-12 mb-6">During your consultation, we&rsquo;ll provide you with resources for a deeper understanding of your condition and potential treatments. We empower you with knowledge and tools to help you actively participate in your care both during our work together and beyond.</p>                
+                <p className="lg:mb-12 mb-6">We believe in transparency and in equipping you with the information you need.A poor healthcare provider may keep you in the dark about your treatment options, but that&rsquo;s not our approach. </p>
+                <p className="lg:mb-12 mb-6">We want you to understand the strategies and treatments we use for your neurological health, offering you resources to review at your convenience.</p>
                 <Link href="" className="btn-primary rounded-full">
                   CHECK OUT OUR COURESS
                 </Link>
@@ -858,9 +891,17 @@ export default function Home() {
               <div className="lg:w-5/12 w-full lg:pr-6 pr-0">
                 <h4 className="title-h4 text-[#1A70BA]">Stage 6</h4>
                 <div className="title-h6">Neurology Report</div>
-                <p className="mb-12">The data we gather helps us translate insights into strategies for your neurological health. We will provide clear, digestible reports and data audits, using this information to maximize the effectiveness of our treatment.</p>
-                <p className="mb-12">Our neurology analytics continually identify opportunities to enhance care, adjust treatment plans, or explore new approaches for better outcomes. For instance, if a particular treatment approach leads to high patient dissatisfaction, we may need to reassess its suitability or relevance.</p>
-                <p className="mb-12">Effective neurology care often requires long-term planning and adjustments to ensure consistent, measurable improvement. Quality analytics involves more than tracking specific outcomes; it&rsquo;s a comprehensive analysis of performance designed to drive positive results. For more details about our services and locations, please reach out to us.</p>
+                <Image
+                  src="/stage-6.webp"
+                  alt="stage-6"
+                  className="block lg:hidden mb-4 mx-auto"
+                  width={550}
+                  height={366}
+                  loading="lazy"
+                />
+                <p className="lg:mb-12 mb-6">The data we gather helps us translate insights into strategies for your neurological health. We will provide clear, digestible reports and data audits, using this information to maximize the effectiveness of our treatment.</p>
+                <p className="lg:mb-12 mb-6">Our neurology analytics continually identify opportunities to enhance care, adjust treatment plans, or explore new approaches for better outcomes. For instance, if a particular treatment approach leads to high patient dissatisfaction, we may need to reassess its suitability or relevance.</p>
+                <p className="lg:mb-12 mb-6">Effective neurology care often requires long-term planning and adjustments to ensure consistent, measurable improvement. Quality analytics involves more than tracking specific outcomes; it&rsquo;s a comprehensive analysis of performance designed to drive positive results. For more details about our services and locations, please reach out to us.</p>
                 <Link href="" className="btn-primary rounded-full">
                   LEARN MORE
                 </Link>
@@ -869,7 +910,7 @@ export default function Home() {
                 <Image
                   src="/stage-6.webp"
                   alt="stage-6"
-                  className=""
+                  className="hidden lg:block"
                   width={550}
                   height={366}
                   loading="lazy"
@@ -879,13 +920,13 @@ export default function Home() {
           </div>
         </div>        
       </div>
-      <div className="w-full max-w-7xl mx-auto relative lg:py-16 py-8 lg:px-0 px-5">
-        <div className="lg:mb-40 mb-20">
+      <div className="w-full max-w-7xl mx-auto relative lg:py-16 py-8 xl:px-0 px-5">
+        <div className="lg:mb-40 mb-8">
           <div className="text-center">
             <h3 className="title-h3 text-[#1A70BA]">OUR MISSION</h3>
           </div>
-          <div className="grid lg:grid-cols-3 grid-cols-1 lg:gap-16 gap-8">
-            <div className="card bg-white border-2 border-[#1A70BA]  flex flex-col relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl overflow-hidden">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:gap-16 lg:gap-10 gap-8">
+            <div className="card bg-white border-2 border-[#1A70BA]  flex flex-col lg:text-left text-center relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl overflow-hidden">
               <Image
                 src="/img-card-our-mission.webp"
                 alt="img-card-our-mission"
@@ -902,7 +943,7 @@ export default function Home() {
                 March 11, 2024 No Comments
               </div>
             </div>
-            <div className="card bg-white border-2 border-[#1A70BA]  flex flex-col relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl overflow-hidden lg:mt-10 lg:-mb-10">
+            <div className="card bg-white border-2 border-[#1A70BA]  flex flex-col lg:text-left text-center relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl overflow-hidden lg:mt-10 lg:-mb-10">
               <Image
                 src="/img-card-our-mission.webp"
                 alt="img-card-our-mission"
@@ -919,7 +960,7 @@ export default function Home() {
                 March 11, 2024 No Comments
               </div>
             </div>
-            <div className="card bg-white border-2 border-[#1A70BA]  flex flex-col relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl overflow-hidden">
+            <div className="card bg-white border-2 border-[#1A70BA]  flex flex-col lg:text-left text-center relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl overflow-hidden">
               <Image
                 src="/img-card-our-mission.webp"
                 alt="img-card-our-mission"
@@ -970,7 +1011,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="relative max-w-[1920px] mx-auto w-full flex flex-col lg:pb-16 lg:pt-0 py-8 bg-[#e8f1f8] lg:bg-transparent lg:px-0 px-5">
+      <div className="relative max-w-[1920px] mx-auto w-full flex flex-col lg:pb-16 lg:pt-0 py-8 bg-[#e8f1f8] xl:bg-transparent xl:px-0 px-5">
         <Image
           src="/illustration-7.webp"
           alt="illustration-7"
@@ -980,11 +1021,11 @@ export default function Home() {
           loading="lazy"
         />
         <div className="w-full max-w-7xl mx-auto relative lg:pt-32">
-          <div className="lg:w-6/12 w-full mx-auto text-center mb-20">
+          <div className="lg:w-6/12 w-full mx-auto text-center lg:mb-20 mb-5">
             <h3 className="title-h3 text-[#1A70BA]">We&rsquo;d Love To Hear From You!</h3>
             <p className="mb-5 font-medium">If you have any questions, please do get in touch with us! If you&rsquo;d prefer to speak directly to a consultant, <Link href={''} className="text-secondary">Book A Call!</Link></p>
           </div>
-          <div className="lg:w-7/12 w-full mx-auto mb-24">
+          <div className="lg:w-7/12 w-full mx-auto lg:mb-24 mb-8">
             <form>
               <div className="flex flex-col gap-3">
                 <div>
@@ -996,13 +1037,13 @@ export default function Home() {
                 <div>
                   <label className="label text-[#1A70BA] mb-2 block">Email</label>
                   <div className="input-field">                  
-                    <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="" id="name" />
+                    <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="" id="email" />
                   </div>
                 </div>
                 <div>
                   <label className="label text-[#1A70BA] mb-2 block">Phone</label>
                   <div className="input-field">                  
-                    <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="" id="name" />
+                    <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="" id="phone" />
                   </div>
                 </div>
                 <div>
@@ -1021,7 +1062,7 @@ export default function Home() {
             <div className="text-center">
               <h3 className="title-h3 text-[#1A70BA]">Check Out Some Of Our Awards From The Last Few Years</h3>
             </div>
-            <div className="grid lg:grid-cols-6 grid-cols-2 lg:gap-12 gap-8 items-center">
+            <div className="grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2 lg:gap-12 gap-8 items-center justify-items-center">
               <div>
                 <Image
                   src="/awards/img-awards-1.webp"

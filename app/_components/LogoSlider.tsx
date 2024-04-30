@@ -36,6 +36,8 @@ const LogoSlider: React.FC<LogoSliderProps> = ({ data }) => {
   return (
           <Swiper
             autoplay={false}
+            navigation={true}
+            pagination={true}
             loop={true}
             slidesPerView="auto"
             breakpoints={{

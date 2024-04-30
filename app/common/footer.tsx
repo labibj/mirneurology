@@ -40,7 +40,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="w-full lg:py-10 py-16 footer px-5 xl:px-0 bg-gradient-to-t from-[#1A70BA] to-[#02C088] relative">
+    <footer className="w-full lg:py-10 py-8 footer px-5 xl:px-0 bg-gradient-to-t from-[#1A70BA] to-[#02C088] relative">
         <div className="max-w-7xl w-full mx-auto">
         <div className="flex lg:flex-row flex-col gap-4 lg:gap-0 justify-between text-white">
             <div className="text-center lg:text-left lg:w-6/12">

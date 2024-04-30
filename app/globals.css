@@ -36,19 +36,19 @@ body {
 }
 
 .title-h3 {
-  @apply text-3xl font-bold lg:mb-8 mb-4;
+  @apply xl:text-3xl lg:text-2xl text-2xl font-bold xl:mb-8 lg:mb-3 mb-3;
 }
 
 .title-h4 {
-  @apply text-2xl font-semibold lg:mb-6 mb-4;
+  @apply lg:text-2xl text-xl font-semibold lg:mb-6 mb-3;
 }
 
 .title-h5 {
-  @apply text-xl font-bold lg:mb-6 mb-4;
+  @apply lg:text-xl text-lg font-bold lg:mb-6 mb-3;
 }
 
 .title-h6 {
-  @apply text-lg font-semibold lg:mb-6 mb-4;
+  @apply lg:text-lg text-base font-semibold lg:mb-6 mb-6;
 }
 
 .list-none.with-bullets li {
@@ -75,11 +75,16 @@ body {
 
 @layer components {
   .btn-primary {
-    @apply py-3 px-7 bg-[#02C088] text-white font-normal rounded shadow-md focus:outline-none focus:ring focus:ring-[#02C088] focus:ring-opacity-75 inline-block;
+    @apply py-3 px-7 bg-[#02C088] transition ease-in-out hover:bg-[#1A70BA] text-white font-normal rounded shadow-md focus:outline-none focus:ring focus:ring-[#02C088] focus:ring-opacity-75 inline-block;
   }
 
   .btn-secondary {
     @apply py-3 px-7 bg-gradient-to-r from-[var(--myColor3)] to-[var(--myColor4)] text-white font-normal rounded focus:outline-none focus:ring focus:ring-[#02C088] focus:ring-opacity-75;
+    transition: --myColor3 0.5s, --myColor4 0.5s;
+  }
+  .btn-secondary:hover {
+    --myColor3: #1A70BA;
+    --myColor4: #1A70BA;
   }
 }
 
@@ -125,4 +130,20 @@ p {
 
 .input-field {
   @apply flex p-0.5 bg-gradient-to-r from-[#1A70BA] to-[#02C088]
+}
+
+.swiper {
+  padding-bottom: 2rem !important;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  top: 3rem !important;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color: #ffffff !important;
+}
+
+.swiper-pagination-bullet {
+  background: #ffffff !important;
 }
