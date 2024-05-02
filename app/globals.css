@@ -147,3 +147,12 @@ p {
 .swiper-pagination-bullet {
   background: #ffffff !important;
 }
+
+.sub-page-banner .title-h2 {
+  @apply lg:text-5xl text-2xl lg:mb-7 mb-4 font-normal;
+  line-height: 60px !important;
+}
+
+.sub-page-banner .title-h2 span {
+  @apply font-bold;
+}
