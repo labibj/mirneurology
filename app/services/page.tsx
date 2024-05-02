@@ -609,10 +609,10 @@ export default function Services() {
           </div>
         </div>
       </div>
-      <div className="relative flex items-center xl:mb-0 mb-8 bg-gradient-to-t from-[#1A70BA] to-[#02C088] xl:bg-none py-3 lg:py-0">
+      <div className="relative flex items-center py-3 lg:py-0 bg-[#e8f1f8] xl:bg-transparent">
         <Image
-          src="/illustration-13.webp"
-          alt="illustration-13"
+          src="/illustration-14-top.webp"
+          alt="illustration-14"
           className="absolute top-0 left-0 right-0 mx-auto hidden xl:block"
           width={1920}
           height={653}
