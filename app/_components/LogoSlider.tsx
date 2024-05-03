@@ -35,7 +35,7 @@ interface LogoSliderProps {
 const LogoSlider: React.FC<LogoSliderProps> = ({ data }) => {
   return (
           <Swiper
-            autoplay={false}
+            autoplay={true}
             navigation={true}
             pagination={true}
             loop={true}
