@@ -57,7 +57,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="relative flex xl:h-80 lg:h-48 h-auto items-center xl:mb-0 mb-8 bg-gradient-to-t from-[#1A70BA] to-[#02C088] xl:bg-none py-3 lg:py-0">
+      <div className="relative flex flex-col justify-center xl:h-80 lg:h-48 h-auto items-center xl:mb-0 mb-8 bg-gradient-to-t from-[#1A70BA] to-[#02C088] xl:bg-none py-3 lg:py-0">
             <Image
               src="/illustration-logos.webp"
               alt="illustration-logos"
@@ -68,6 +68,7 @@ export default function Home() {
               style={{ width: '100%', height: 'auto' }} // optional
               loading="lazy"
             />
+            <div className="text-white font-bold text-base relative mb-3">As Featured In:</div>
             <div className="max-w-7xl xl:w-7/12 lg:w-10/12 w-full mx-auto hidden lg:block">
               <LogoSlider data={dataLogoSlider} />
             </div>

@@ -121,7 +121,7 @@ const Header = () => {
           <li
             className="nav-links font-medium duration-200 link-underline flex items-center group"
           >
-            <Link href={''} className="transition text-lg font-medium duration-500 text-[#ffffff] hover:text-[#29F09E] flex items-center">SEO</Link>
+            <Link href={'/services'} className="transition text-lg font-medium duration-500 text-[#ffffff] hover:text-[#29F09E] flex items-center">SEO</Link>
           </li>
           <li
             className="nav-links font-medium duration-200 link-underline flex items-center group"

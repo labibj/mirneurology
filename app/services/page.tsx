@@ -17,7 +17,7 @@ export default function Services() {
    }
   return (
     <main className="">
-      <div className="relative flex xl:h-80 lg:h-48 h-auto items-center xl:mb-0 mb-8 bg-gradient-to-t from-[#1A70BA] to-[#02C088] xl:bg-none py-3 lg:py-0 mt-56 sub-page-banner">
+      <div className="relative flex xl:h-80 h-auto items-center xl:mb-0 mb-0 bg-gradient-to-t from-[#1A70BA] to-[#02C088] xl:bg-none py-6 xl:py-0 lg:mt-56 mt-24 sub-page-banner">
             <Image
               src="/illustration-logos.webp"
               alt="illustration-logos"
@@ -28,15 +28,15 @@ export default function Services() {
               style={{ width: '100%', height: 'auto' }} // optional
               loading="lazy"
             />
-            <div className="max-w-7xl xl:w-7/12 lg:w-10/12 w-full mx-auto hidden lg:block relative text-center">
+            <div className="max-w-7xl xl:w-7/12 lg:w-10/12 w-full mx-auto relative text-center">
                 <h2 className="title-h2 text-white"><span className="text-primary">SEO Services</span> To Boost Your Websites Performance</h2>
                 <Link href="" className="btn-primary rounded-full">
                     BOOK A CALL
                 </Link>
             </div>
       </div>
-      <div className="lg:py-16 py-8 lg:px-0 px-5">
-        <div className="w-full max-w-7xl mx-auto grid lg:grid-cols-2 grid-cols-1 gap-10">
+      <div className="lg:py-16 py-8 xl:px-0 px-5">
+        <div className="w-full max-w-7xl mx-auto grid lg:grid-cols-2 grid-cols-1 lg:gap-10 gap-5 text-center lg:text-left">
             <div>
                 <Image
                     src="/img-video-placeholder.webp"
@@ -54,7 +54,7 @@ export default function Services() {
             </div>
         </div>
       </div>      
-      <div className="relative xl:h-[1367px] max-w-[1920px] mx-auto w-full flex flex-col lg:px-0 px-5 pt-8 lg:pt-0">
+      <div className="relative xl:h-[1367px] max-w-[1920px] mx-auto w-full flex flex-col lg:px-0 px-5">
         <Image
           src="/illustration-8.webp"
           alt="illustration-8"
@@ -301,7 +301,7 @@ export default function Services() {
           </div>
         </div>
       </div>      
-      <div className="lg:pt-32 lg:pb-48 py-8 lg:px-0 px-5 relative">
+      <div className="xl:pt-32 xl:pb-48 py-8 lg:py-16 lg:px-0 px-5 relative bg-[#e8f1f8] xl:bg-transparent">
         <Image
           src="/illustration-9.webp"
           alt="illustration-9"
@@ -314,6 +314,14 @@ export default function Services() {
           <div className="lg:w-9/12 w-full mx-auto flex lg:flex-row flex-col">
             <div className="lg:w-6/12 w-full lg:text-left text-center">
               <h4 className="title-h4 text-[#1A70BA]">Our Approach To Organic Search</h4>
+              <Image
+                src="/img-organic-search.webp"
+                alt="img-organic-search"
+                className="w-full block lg:hidden mb-5"
+                width={388}
+                height={243}
+                loading="lazy"
+              />
               <p className="mb-3">As an London SEO agency, we don&rsquo;t take a &rsquo;one solution fits all&rsquo; approach - our SEO team will design and implement bespoke campaigns for our clients. Many SEO service companies focus on optimising solely for Google.</p>
               <p className="mb-3">However, we recognise the need to get the perfect balance between essentially &rsquo;optimising for your customers&rsquo; - to ensure that they get the best experience when they visit your site, whilst also increasing your visibility on the search engine results pages.</p>
               <Link href="" className="btn-primary rounded-full">
@@ -324,7 +332,7 @@ export default function Services() {
               <Image
                 src="/img-organic-search.webp"
                 alt="img-organic-search"
-                className="w-full"
+                className="w-full hidden lg:block"
                 width={388}
                 height={243}
                 loading="lazy"
@@ -345,16 +353,16 @@ export default function Services() {
         <div className="w-full max-w-7xl mx-auto relative">
           <div className="lg:w-7/12 mx-auto text-white text-center">
             <h2 className="title-h2">Why Not Book A Call?</h2>
-            <p className="mb-5">We would love to help you with a bespoke SEO service in London. Pearl Lemon can get you ranking better for improvement in the long-run. Book a call today!</p>
+            <p className="lg:mb-12 mb-5">We would love to help you with a bespoke SEO service in London. Pearl Lemon can get you ranking better for improvement in the long-run. Book a call today!</p>
             <Link href="" className="btn-primary rounded-full">
               BOOK A CALL
             </Link>
           </div>
         </div>
       </div>
-      <div className="lg:py-32 py-8 lg:px-0 px-5 relative">
-        <div className="w-full max-w-7xl mx-auto flex gap-12">
-          <div className="lg:w-5/12 self-center">
+      <div className="xl:py-32 lg:py-16 py-8 xl:px-0 px-5 relative">
+        <div className="w-full max-w-7xl mx-auto flex lg:flex-row flex-col gap-12 text-center lg:text-left">
+          <div className="lg:w-5/12 self-center hidden lg:block">
             <Image
               src="/img-london-seo-services.webp"
               alt="img-london-seo-services"
@@ -366,6 +374,14 @@ export default function Services() {
           </div>
           <div className="lg:w-7/12">
             <h2 className="title-h2 text-[#1A70BA]">London SEO Services</h2>
+            <Image
+              src="/img-london-seo-services.webp"
+              alt="img-london-seo-services"
+              className="w-full border-2 border-[#02C088] rounded-2xl block lg:hidden mb-6"
+              width={538}
+              height={358}
+              loading="lazy"
+            />
             <p className="mb-5">We understand that getting your search engine optimization right is vital to your success. We are an SEO Company London clients can trust - check out <span className="text-secondary">our core values</span></p>
             <p className="mb-5">Our leading SEO services are what London businesses need to boost their online presence and increase their visibility in the search engines. Check out our <span className="text-secondary">case studies</span> to see how our SEO agency in London has helped businesses like yours succeed.</p>
             <p className="mb-8">Here at Pearl Lemon, all of our results-driven campaigns are bespoke to suit our clients&rsquo; individual needs. We essentially provide affordable SEO services London businesses require to stand out amongst the competition. As a top-notch SEO agency London, we ensure your online success with tailored strategies- <span className="text-secondary">get a free SEO audit.</span></p>
@@ -375,7 +391,7 @@ export default function Services() {
           </div>
         </div>
       </div>
-      <div className="relative flex flex-col justify-center xl:py-0 lg:py-16 py-8 xl:px-0 px-5 bg-[#e8f1f8] xl:bg-transparent">
+      <div className="relative flex flex-col justify-center xl:py-0 lg:py-16 py-8 xl:px-0 px-5 bg-[#e8f1f8] xl:bg-transparent text-center lg:text-left">
         <Image
           src="/illustration-11-top.webp"
           alt="illustration-11-top"
@@ -392,10 +408,18 @@ export default function Services() {
           height={133}
           loading="lazy"
         />
-        <div className="bg-[#E9F1F9] lg:mt-[137px] lg:mb-[132px]">
-          <div className="w-full max-w-7xl mx-auto relative flex lg:flex-row lg:pb-12">
+        <div className="bg-[#E9F1F9] xl:mt-[137px] xl:mb-[132px]">
+          <div className="w-full max-w-7xl mx-auto relative flex lg:flex-row flex-col xl:pb-12">
             <div className="lg:w-7/12 lg:pr-24">
               <h2 className="title-h2 text-[#1A70BA]">Bespoke SEO Services Designed to Bring Your Company Success</h2>
+              <Image
+                src="/img-bespoke-seo.webp"
+                alt="img-bespoke-seo"
+                className="w-full block lg:hidden mb-6"
+                width={500}
+                height={545}
+                loading="lazy"
+              />
               <p className="mb-5">Our founder & <span className="text-secondary">SEO Consultant</span>, Deepak Shukla, lives in Fulham Broadway, London. Before entering the world of online marketing, Deepak worked for Deloitte (as a tax consultant) and Wavemaker, so he has an in-depth understanding of how a business operates in the city.</p>
               <p className="mb-5">With that said, he&rsquo;s also travelled to over 50 countries - which enables him to collaborate with clients from all over the world. He has even met some of his clients in Israel and Amsterdam!</p>
               <p className="mb-5">Deepak is an award-winning London SEO Consultant, so you can rest assured that your company and campaign is in good hands. Deepak goes far beyond just London though, he has brought success to clients in the United States, throughout the United Kingdom, Germany, Malta, Estonia, Czech Republic and more.As an esteemed SEO agency London, Deepak&rsquo;s expertise transcends borders, ensuring exceptional results worldwide.</p>
@@ -404,7 +428,7 @@ export default function Services() {
                 BOOK A CALL
               </Link>
             </div>
-            <div className="lg:w-4/12 self-center">
+            <div className="lg:w-4/12 self-center hidden lg:block">
               <Image
                 src="/img-bespoke-seo.webp"
                 alt="img-bespoke-seo"
@@ -417,7 +441,7 @@ export default function Services() {
           </div>
         </div>        
       </div>
-      <div className="relative flex xl:h-80 lg:h-48 h-auto items-center xl:mb-0 mb-8 bg-gradient-to-t from-[#1A70BA] to-[#02C088] xl:bg-none py-3 lg:py-0">
+      <div className="relative flex flex-col justify-center xl:h-80 lg:h-48 h-auto items-center xl:mb-0 mb-8 bg-gradient-to-t from-[#1A70BA] to-[#02C088] xl:bg-none py-3 lg:py-0">
         <Image
           src="/illustration-logos.webp"
           alt="illustration-logos"
@@ -428,6 +452,7 @@ export default function Services() {
           style={{ width: '100%', height: 'auto' }} // optional
           loading="lazy"
         />
+        <div className="text-white font-bold text-base relative mb-3">As Featured In:</div>
         <div className="max-w-7xl xl:w-7/12 lg:w-10/12 w-full mx-auto hidden lg:block">
           <LogoSlider data={dataLogoSlider} />
         </div>
@@ -435,7 +460,7 @@ export default function Services() {
           <LogoSlider data={dataLogoSliderSm} />
         </div>
       </div>
-      <div className="xl:py-32 lg:py-16 py-8">
+      <div className="xl:py-32 lg:py-16 py-8 xl:px-0 px-5">
         <div className="w-full max-w-7xl mx-auto">
           <div className="flex flex-col lg:flex-row">
             <div className="lg:w-7/12 w-full pr-16">
@@ -504,7 +529,7 @@ export default function Services() {
               <h2 className="title-h2 text-[#1A70BA]">How Pearl Lemon SEO Services Works</h2>
               <p className="lg:mb-20">Choosing Pearl Lemon as your SEO Agency is a simple and painless process.</p>
             </div>
-            <div className="grid lg:grid-cols-2 lg:gap-16">
+            <div className="grid lg:grid-cols-2 lg:gap-16 gap-8 text-center lg:text-left">
               <div className="card bg-white px-6 py-12 rounded-2xl border-2 border-[#02C088] transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-2xl overflow-hidden">
                 <div className="title-h4 text-[#1A70BA]">First Step:</div>
                 <p>Book a call with our Head of Business Development, Ion, to discuss your needs and desires for your SEO campaign. He will design and outline the best package for you to ensure that we are the perfect SEO agency, London based, for you.</p>
@@ -525,12 +550,12 @@ export default function Services() {
           </div>
         </div>        
       </div>
-      <div className="lg:py-20 py-8 lg:px-0 px-5">
+      <div className="xl:py-20 lg:pt-20 lg:pb-32 pt-8 pb-32 xl:px-0 px-5">
         <div className="w-full max-w-7xl mx-auto text-center">
           <h3 className="title-h3 text-[#1A70BA]">Testimonials</h3>
           <p className="lg:mb-5 mb-2 font-medium">What <span className="text-secondary">Our Patients</span> Say About Our Neurology Services in Hagerstown.</p>
           <p className="lg:mb-12 mb-2 font-medium">Here at <span className="text-secondary">Pearl Lemon</span>, we can help your company grow. We are THE SEO agency London businesses know, love and trust!</p>
-          <div className="mx-auto w-full rounded-full border border-[#02C088] bg-white relative text-center transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-2xl lg:px-56 lg:py-16">
+          <div className="mx-auto w-full lg:rounded-full border border-[#02C088] bg-white relative text-center transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-2xl lg:px-56 lg:py-16 px-3 pt-5 pb-16">
             <div className="title-h5 text-[#1A70BA]">Our Neurology Services in Hagerstown.</div>
             <p className="leading-8">Once your form is filled out, our team of SEO will have an onboarding call with you to be sure we understand your answers and to ask any additional questions we may have. As a bonus, we get a little bit of extra time to get to know you</p>
             <div className="inline-flex flex-col items-center gap-2 absolute -bottom-24 left-0 right-0 mx-auto">
@@ -552,7 +577,7 @@ export default function Services() {
           </div>          
         </div>
       </div>
-      <div className="relative flex xl:min-h-[653px] items-center xl:mb-0 mb-8 bg-gradient-to-t from-[#1A70BA] to-[#02C088] xl:bg-none py-3 lg:py-0">
+      <div className="relative flex xl:min-h-[653px] items-center xl:mb-0 bg-gradient-to-t from-[#1A70BA] to-[#02C088] xl:bg-none py-8 lg:py-16 xl:py-0 xl:px-0 px-5">
         <Image
           src="/illustration-13.webp"
           alt="illustration-13"
@@ -561,7 +586,7 @@ export default function Services() {
           height={653}
           loading="lazy"
         />
-        <div className="max-w-7xl w-full mx-auto lg:w-6/12 text-white text-center relative lg:mt-20">
+        <div className="max-w-7xl w-full mx-auto xl:w-6/12 lg:w-10/12 text-white text-center relative xl:mt-20">
           <h2 className="title-h2">SEO Case Studies</h2>
           <p className="mb-12">Here at Pearl Lemon, one of our core values is transparency. We are proud of this value as it sets us apart as an SEO company London businesses love. <span className="text-primary">We provide our clients with an extensive collection of case studies and reviews to demonstrate the results and experience they can expect when working with us.</span></p>
           <Link href="" className="btn-primary rounded-full">
@@ -569,9 +594,9 @@ export default function Services() {
           </Link>          
         </div>
       </div>
-      <div className="py-3 lg:py-16">
-        <div className="max-w-7xl w-full mx-auto">
-          <div className="flex lg:flex-row flex-col gap-8 lg:mb-48">
+      <div className="py-8 lg:pt-16 xl:pb-24 xl:px-0 px-5">
+        <div className="max-w-7xl w-full mx-auto flex flex-col xl:gap-48 lg:gap-24 gap-8 text-center lg:text-left">
+          <div className="flex lg:flex-row flex-col lg:gap-8 gap-3">
             <div className="lg:w-5/12">
               <Image
                 src="/img-insurance-1.webp"
@@ -583,20 +608,20 @@ export default function Services() {
               />
             </div>
             <div className="lg:w-7/12 self-center lg:pr-24">
-              <p className="mb-12 font-medium">We accept Medicare, Medicaid, and almost all commercial insurance as payment. Our billing staff is happy to help patients who may require a payment plan. For questions related to insurance or billing, reach out to us at +1 (301) 797-7600. Copayments and outstanding balances are expected to be paid at the time of service. We appreciate a 24 hour cancellation notice, otherwise a fee may apply. Please note that health insurance does not cover auto-accident related treatment.</p>
+              <p className="lg:mb-12 mb-3 font-medium">We accept Medicare, Medicaid, and almost all commercial insurance as payment. Our billing staff is happy to help patients who may require a payment plan. For questions related to insurance or billing, reach out to us at +1 (301) 797-7600. Copayments and outstanding balances are expected to be paid at the time of service. We appreciate a 24 hour cancellation notice, otherwise a fee may apply. Please note that health insurance does not cover auto-accident related treatment.</p>
               <Link href="" className="btn-primary rounded-full">
                 SEE MORE!
               </Link> 
             </div>
           </div>
-          <div className="flex lg:flex-row flex-col gap-8">            
-            <div className="lg:w-7/12 self-center lg:pr-24">
-              <p className="mb-12 font-medium">We accept Medicare, Medicaid, and almost all commercial insurance as payment. Our billing staff is happy to help patients who may require a payment plan. For questions related to insurance or billing, reach out to us at +1 (301) 797-7600. Copayments and outstanding balances are expected to be paid at the time of service. We appreciate a 24 hour cancellation notice, otherwise a fee may apply. Please note that health insurance does not cover auto-accident related treatment.</p>
+          <div className="flex lg:flex-row flex-col lg:gap-8 gap-3">            
+            <div className="lg:w-7/12 self-center lg:pr-24 lg:order-1 order-2">
+              <p className="lg:mb-12 mb-3 font-medium">We accept Medicare, Medicaid, and almost all commercial insurance as payment. Our billing staff is happy to help patients who may require a payment plan. For questions related to insurance or billing, reach out to us at +1 (301) 797-7600. Copayments and outstanding balances are expected to be paid at the time of service. We appreciate a 24 hour cancellation notice, otherwise a fee may apply. Please note that health insurance does not cover auto-accident related treatment.</p>
               <Link href="" className="btn-primary rounded-full">
                 SEE MORE!
               </Link> 
             </div>
-            <div className="lg:w-5/12">
+            <div className="lg:w-5/12 lg:order-2 order-1">
               <Image
                 src="/img-insurance-1.webp"
                 alt="img-insurance-1"
@@ -609,15 +634,236 @@ export default function Services() {
           </div>
         </div>
       </div>
-      <div className="relative flex items-center py-3 lg:py-0 bg-[#e8f1f8] xl:bg-transparent">
+      <div className="relative flex items-center py-0 xl:py-0 xl:-mb-36">
         <Image
           src="/illustration-14-top.webp"
           alt="illustration-14"
           className="absolute top-0 left-0 right-0 mx-auto hidden xl:block"
           width={1920}
-          height={653}
+          height={180}
           loading="lazy"
         />
+        <div className="bg-[#e8f1f8] xl:mt-[178px] w-full xl:pt-16 xl:pb-72 lg:pt-16 lg:pb-16 xl:px-0 px-5 py-8 lg:py-0 text-center lg:text-left">
+          <div className="max-w-7xl w-full mx-auto relative flex flex-col xl:gap-48 lg:gap-24 gap-8">
+            <div className="flex lg:flex-row flex-col lg:gap-8 gap-3">
+              <div className="lg:w-5/12">
+                <Image
+                  src="/img-insurance-1.webp"
+                  alt="img-insurance-1"
+                  className="w-full border border-[#02C088] rounded-2xl"
+                  width={576}
+                  height={324}
+                  loading="lazy"
+                />
+              </div>
+              <div className="lg:w-7/12 self-center lg:pr-24">
+                <p className="lg:mb-12 mb-3 font-medium">We accept Medicare, Medicaid, and almost all commercial insurance as payment. Our billing staff is happy to help patients who may require a payment plan. For questions related to insurance or billing, reach out to us at +1 (301) 797-7600. Copayments and outstanding balances are expected to be paid at the time of service. We appreciate a 24 hour cancellation notice, otherwise a fee may apply. Please note that health insurance does not cover auto-accident related treatment.</p>
+                <Link href="" className="btn-primary rounded-full">
+                  SEE MORE!
+                </Link> 
+              </div>
+            </div>
+            <div className="flex lg:flex-row flex-col lg:gap-8">            
+              <div className="lg:w-7/12 self-center lg:pr-32">
+                <h3 className="title-h3 text-[#1A70BA]">Why Invest In Search Engine Optimisation Services?</h3>
+                <Image
+                  src="/why-invest.webp"
+                  alt="why-invest"
+                  className="w-full block lg:hidden mb-3"
+                  width={566}
+                  height={473}
+                  loading="lazy"
+                />
+                <p className="lg:mb-12 mb-3">We use search engines to find the goods and services we&rsquo;d like to purchase. Perhaps you were looking for an SEO company in London, so you typed the keywords <span className="text-secondary">&rsquo;SEO Services London&rsquo;</span> into Google or Bing to find us.</p>
+                <p className="lg:mb-12 mb-3">If you are offering a service online or selling good you&rsquo;ll want to increase your visibility in search engines - that&rsquo;s where SEO comes in!</p>
+                <p className="lg:mb-12 mb-3">90% of searchers only check the first page of results in search engines such as Google to find the goods, services and information they are looking for. Therefore SEO should play a vital role in your <span className="text-secondary">digital marketing strategy.</span></p>
+                <Link href="" className="btn-primary rounded-full">
+                  BOOK A CALL
+                </Link> 
+              </div>
+              <div className="lg:w-5/12 self-center">
+                <Image
+                  src="/why-invest.webp"
+                  alt="why-invest"
+                  className="w-full hidden lg:block"
+                  width={566}
+                  height={473}
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </div>        
+      </div>      
+      <div className="relative xl:h-[557px] flex flex-col justify-center xl:py-0 lg:py-16 py-8 xl:px-0 px-5 bg-gradient-to-t from-[#1A70BA] to-[#02C088] xl:bg-none">
+        <Image
+          src="/illustration-15.webp"
+          alt="illustration-15"
+          className="absolute top-0 left-0 right-0 bottom-0 mx-auto object-contain hidden xl:block"
+          width={1920}
+          height={557}
+          loading="lazy"
+        />
+        <div className="w-full max-w-7xl mx-auto relative">
+          <div className="lg:w-10/12 mx-auto text-white text-center">
+            <h2 className="title-h2">Hire Us - Award Winning SEO Company in London</h2>
+          </div>
+          <div className="lg:w-7/12 mx-auto text-white text-center lg:px-6">
+            <p className="mb-5">We are Pearl Lemon, an award-winning SEO Company in London. If you are considering hiring an <span className="text-primary">SEO Agency</span>, London based, get in touch! Let&rsquo;s discuss your digital growth goals!</p>
+            <Link href="" className="btn-primary rounded-full">
+              BOOK A CALL
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="relative flex items-center py-3 lg:py-16 py-8 xl:px-0 px-5 text-center lg:text-left">
+        <div className="max-w-7xl w-full mx-auto relative flex flex-col lg:gap-32 gap-8">
+          <div className="flex lg:flex-row flex-col lg:gap-8">
+            <div className="lg:w-5/12 self-center">
+              <Image
+                src="/why-invest.webp"
+                alt="why-invest"
+                className="w-full hidden lg:block"
+                width={566}
+                height={473}
+                loading="lazy"
+              />
+            </div>
+            <div className="lg:w-7/12 self-center lg:pl-32">
+              <h3 className="title-h3 text-[#1A70BA]">Why Invest In Search Engine Optimisation Services?</h3>
+              <Image
+                src="/why-invest.webp"
+                alt="why-invest"
+                className="w-full block lg:hidden mb-3"
+                width={566}
+                height={473}
+                loading="lazy"
+              />
+              <p className="lg:mb-12 mb-3">We use search engines to find the goods and services we&rsquo;d like to purchase. Perhaps you were looking for an SEO company in London, so you typed the keywords <span className="text-secondary">&rsquo;SEO Services London&rsquo;</span> into Google or Bing to find us.</p>
+              <p className="lg:mb-12 mb-3">If you are offering a service online or selling good you&rsquo;ll want to increase your visibility in search engines - that&rsquo;s where SEO comes in!</p>
+              <p className="lg:mb-12 mb-3">90% of searchers only check the first page of results in search engines such as Google to find the goods, services and information they are looking for. Therefore SEO should play a vital role in your <span className="text-secondary">digital marketing strategy.</span></p>
+              <Link href="" className="btn-primary rounded-full">
+                BOOK A CALL
+              </Link> 
+            </div>            
+          </div>
+          <div className="flex lg:flex-row flex-col lg:gap-8">
+            <div className="lg:w-7/12 self-center lg:pr-32">
+              <h3 className="title-h3 text-[#1A70BA]">Why Invest In Search Engine Optimisation Services?</h3>
+              <Image
+                src="/why-invest.webp"
+                alt="why-invest"
+                className="w-full block lg:hidden mb-3"
+                width={566}
+                height={473}
+                loading="lazy"
+              />
+              <p className="lg:mb-12 mb-3">We use search engines to find the goods and services we&rsquo;d like to purchase. Perhaps you were looking for an SEO company in London, so you typed the keywords <span className="text-secondary">&rsquo;SEO Services London&rsquo;</span> into Google or Bing to find us.</p>
+              <p className="lg:mb-12 mb-3">If you are offering a service online or selling good you&rsquo;ll want to increase your visibility in search engines - that&rsquo;s where SEO comes in!</p>
+              <p className="lg:mb-12 mb-3">90% of searchers only check the first page of results in search engines such as Google to find the goods, services and information they are looking for. Therefore SEO should play a vital role in your <span className="text-secondary">digital marketing strategy.</span></p>
+              <Link href="" className="btn-primary rounded-full">
+                BOOK A CALL
+              </Link> 
+            </div>
+            <div className="lg:w-5/12 self-center">
+              <Image
+                src="/why-invest.webp"
+                alt="why-invest"
+                className="w-full hidden lg:block"
+                width={566}
+                height={473}
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div className="flex lg:flex-row flex-col lg:gap-8">
+            <div className="lg:w-5/12 self-center">
+              <Image
+                src="/why-invest.webp"
+                alt="why-invest"
+                className="w-full hidden lg:block"
+                width={566}
+                height={473}
+                loading="lazy"
+              />
+            </div>
+            <div className="lg:w-7/12 self-center lg:pl-32">
+              <h3 className="title-h3 text-[#1A70BA]">Why Invest In Search Engine Optimisation Services?</h3>
+              <Image
+                src="/why-invest.webp"
+                alt="why-invest"
+                className="w-full block lg:hidden block mb-3"
+                width={566}
+                height={473}
+                loading="lazy"
+              />
+              <p className="lg:mb-12 mb-3">We use search engines to find the goods and services we&rsquo;d like to purchase. Perhaps you were looking for an SEO company in London, so you typed the keywords <span className="text-secondary">&rsquo;SEO Services London&rsquo;</span> into Google or Bing to find us.</p>
+              <p className="lg:mb-12 mb-3">If you are offering a service online or selling good you&rsquo;ll want to increase your visibility in search engines - that&rsquo;s where SEO comes in!</p>
+              <p className="lg:mb-12 mb-3">90% of searchers only check the first page of results in search engines such as Google to find the goods, services and information they are looking for. Therefore SEO should play a vital role in your <span className="text-secondary">digital marketing strategy.</span></p>
+              <Link href="" className="btn-primary rounded-full">
+                BOOK A CALL
+              </Link> 
+            </div>            
+          </div>
+          <div className="flex lg:flex-row flex-col lg:gap-8">
+            <div className="lg:w-7/12 self-center lg:pr-32">
+              <h3 className="title-h3 text-[#1A70BA]">Why Invest In Search Engine Optimisation Services?</h3>
+              <Image
+                src="/why-invest.webp"
+                alt="why-invest"
+                className="w-full block lg:hidden block mb-3"
+                width={566}
+                height={473}
+                loading="lazy"
+              />
+              <p className="lg:mb-12 mb-3">We use search engines to find the goods and services we&rsquo;d like to purchase. Perhaps you were looking for an SEO company in London, so you typed the keywords <span className="text-secondary">&rsquo;SEO Services London&rsquo;</span> into Google or Bing to find us.</p>
+              <p className="lg:mb-12 mb-3">If you are offering a service online or selling good you&rsquo;ll want to increase your visibility in search engines - that&rsquo;s where SEO comes in!</p>
+              <p className="lg:mb-12 mb-3">90% of searchers only check the first page of results in search engines such as Google to find the goods, services and information they are looking for. Therefore SEO should play a vital role in your <span className="text-secondary">digital marketing strategy.</span></p>
+              <Link href="" className="btn-primary rounded-full">
+                BOOK A CALL
+              </Link> 
+            </div>
+            <div className="lg:w-5/12 self-center">
+              <Image
+                src="/why-invest.webp"
+                alt="why-invest"
+                className="w-full hidden lg:block"
+                width={566}
+                height={473}
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div className="flex lg:flex-row flex-col lg:gap-8">
+            <div className="lg:w-5/12 self-center">
+              <Image
+                src="/why-invest.webp"
+                alt="why-invest"
+                className="w-full hidden lg:block"
+                width={566}
+                height={473}
+                loading="lazy"
+              />
+            </div>
+            <div className="lg:w-7/12 self-center lg:pl-32">
+              <h3 className="title-h3 text-[#1A70BA]">Why Invest In Search Engine Optimisation Services?</h3>
+              <Image
+                src="/why-invest.webp"
+                alt="why-invest"
+                className="w-full block lg:hidden block mb-3"
+                width={566}
+                height={473}
+                loading="lazy"
+              />
+              <p className="lg:mb-12 mb-3">We use search engines to find the goods and services we&rsquo;d like to purchase. Perhaps you were looking for an SEO company in London, so you typed the keywords <span className="text-secondary">&rsquo;SEO Services London&rsquo;</span> into Google or Bing to find us.</p>
+              <p className="lg:mb-12 mb-3">If you are offering a service online or selling good you&rsquo;ll want to increase your visibility in search engines - that&rsquo;s where SEO comes in!</p>
+              <p className="lg:mb-12 mb-3">90% of searchers only check the first page of results in search engines such as Google to find the goods, services and information they are looking for. Therefore SEO should play a vital role in your <span className="text-secondary">digital marketing strategy.</span></p>
+              <Link href="" className="btn-primary rounded-full">
+                BOOK A CALL
+              </Link> 
+            </div>            
+          </div>
+        </div>
       </div>
       <div className="relative max-w-[1920px] mx-auto w-full flex flex-col lg:pb-16 lg:pt-0 py-8 bg-[#e8f1f8] xl:bg-transparent xl:px-0 px-5">
         <Image
