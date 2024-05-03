@@ -31,12 +31,10 @@ export default function Home() {
           />
           <p className="text-xl text-[#8C8C8C] font-bold mb-6">We are an experienced team of neurologists operating in the Hagerstown area.</p>
           <form>
-              <div className="flex flex-col gap-5">
-                <label className="sr-only">Email</label>
+              <div className="flex flex-col gap-5">                
                 <div className="input-field">
                   <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="Email" id="" />
-                </div>
-                <label className="sr-only">Phone</label>
+                </div>                
                 <div className="input-field">
                   <input type="email" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="Phone" id="" />
                 </div>
@@ -639,7 +637,7 @@ export default function Home() {
           <div className="w-10/12 mx-auto">          
             <div className="text-center xl:mb-24 mb-8">
               <h3 className="title-h3 text-[#1A70BA]">Watch Our Case Study Videos</h3>
-              <p className="">Talk is cheap, so we don&rsquo;t just say what we can do – we can show you! <span className="text-primary">Our rankings</span> SEO campaigns have a track record of not just ranking our client&rsquo;s sites on page 1 of Google but much more besides. You can expect an <span className="text-primary">improved user experience</span>, more traffic, better conversion rates, increased brand awareness and more.</p>
+              <p className="">Talk is cheap, so we don&rsquo;t just say what we can do - we can show you! <span className="text-primary">Our rankings</span> SEO campaigns have a track record of not just ranking our client&rsquo;s sites on page 1 of Google but much more besides. You can expect an <span className="text-primary">improved user experience</span>, more traffic, better conversion rates, increased brand awareness and more.</p>
             </div>          
             <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 xl:mb-32 lg:mb-16 mb-8">
               <div>
@@ -686,15 +684,12 @@ export default function Home() {
                 />
                 <form>
                   <div className="flex flex-col gap-6">
-                  <label className="sr-only">Enter Website</label>
                     <div className="input-field">                      
                       <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="Enter website" id="" />
                     </div>
-                    <label className="sr-only">Your email</label>
                     <div className="input-field">                      
                       <input type="email" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="Your email" id="" />
                     </div>
-                    <label className="sr-only">Your phone</label>
                     <div className="input-field">                      
                       <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="Your phone" id="" />
                     </div>
@@ -1035,27 +1030,27 @@ export default function Home() {
             <form>
               <div className="flex flex-col gap-3">
                 <div>
-                  <label className="label text-[#1A70BA] mb-2 block">Name</label>
+                  <label className="label text-[#1A70BA] mb-2 block" htmlFor="name">Name</label>
                   <div className="input-field">                  
-                    <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="" id="" />
+                    <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="" id="name" />
                   </div>
                 </div>
                 <div>
-                  <label className="label text-[#1A70BA] mb-2 block">Email</label>
+                  <label className="label text-[#1A70BA] mb-2 block" htmlFor="email">Email</label>
                   <div className="input-field">                  
-                    <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="" id="" />
+                    <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="" id="email" />
                   </div>
                 </div>
                 <div>
-                  <label className="label text-[#1A70BA] mb-2 block">Phone</label>
+                  <label className="label text-[#1A70BA] mb-2 block" htmlFor="phone">Phone</label>
                   <div className="input-field">                  
-                    <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="" id="" />
+                    <input type="text" className="w-full focus:outline-none placeholder:text-slate-500 p-3" placeholder="" id="phone" />
                   </div>
                 </div>
                 <div>
-                  <label className="label text-[#1A70BA] mb-2 block">Message</label>
+                  <label className="label text-[#1A70BA] mb-2 block" htmlFor="message">Message</label>
                   <div className="input-field">
-                    <textarea className="w-full focus:outline-none placeholder:text-slate-500 p-3" cols={6} rows={6}></textarea>
+                    <textarea className="w-full focus:outline-none placeholder:text-slate-500 p-3" cols={6} rows={6} id="message"></textarea>
                   </div>
                 </div>
                 <div className="flex w-full">
