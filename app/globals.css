@@ -207,7 +207,7 @@ p {
 }
 
 .products-services-links .link {
-  @apply lg:text-xl text-lg transition duration-300 ease-in-out  hover:text-[#02C088];
+  @apply lg:text-xl text-lg transition duration-300 ease-in-out  hover:text-[#037ccb];
 }
 
 .blog-sidebar-links a {
