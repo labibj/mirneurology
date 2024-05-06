@@ -67,7 +67,7 @@ export default function Blog() {
                     <AiOutlineSearch size={25} className="absolute top-3 left-3 text-black" />
                     <input type="text" className="w-full bg-white border border-white focus:border-white placeholder:text-slate-500 text-black pt-3 pl-12 pb-3 pr-3 rounded-lg" placeholder="Search for your favourite topics... " id="" />
                 </div>
-                <div className="flex flex-wrap gap-6 lg:w-11/12 mx-auto justify-center">
+                <div className="flex flex-wrap lg:gap-6 gap-3 lg:w-11/12 mx-auto justify-center">
                     <Link href={''} className="btn-primary">All Posts(142)</Link>
                     <Link href={''} className="btn-transparent">All Posts(142)</Link>
                     <Link href={''} className="btn-transparent">Billing & Coding Guides (3)</Link>
@@ -83,7 +83,7 @@ export default function Blog() {
                 </div>
             </div>
         </div>
-        <div className="lg:pt-16 lg:pb-8 pt-16 pb-0 max-w-7xl w-full mx-auto px-5 xl:px-0">
+        <div className="lg:pt-16 lg:pb-8 pt-16 pb-8 max-w-7xl w-full mx-auto px-5 xl:px-0">
             <div className="grid lg:grid-cols-3 grid-cols-1 lg:gap-5 gap-12 mb-16 lg:mb-0">
                 <div className="card card-blog flex flex-col lg:mb-16">
                     <div className="aspect-[4/3] relative mb-5">
