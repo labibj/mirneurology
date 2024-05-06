@@ -83,16 +83,20 @@ body {
 
 @layer components {
   .btn-primary {
-    @apply py-3 px-7 bg-[#02C088] transition ease-in-out hover:bg-[#1A70BA] text-white font-normal rounded shadow-md focus:outline-none focus:ring focus:ring-[#02C088] focus:ring-opacity-75 inline-block;
+    @apply py-3 px-7 bg-[#02C088] transition ease-in-out hover:bg-[#1A70BA] text-white font-normal rounded-lg shadow-md focus:outline-none focus:ring focus:ring-[#02C088] focus:ring-opacity-75 inline-block;
   }
 
   .btn-secondary {
-    @apply py-3 px-7 bg-gradient-to-r from-[var(--myColor3)] to-[var(--myColor4)] text-white font-normal rounded focus:outline-none focus:ring focus:ring-[#02C088] focus:ring-opacity-75;
+    @apply py-3 px-7 bg-gradient-to-r from-[var(--myColor3)] to-[var(--myColor4)] text-white font-normal rounded-lg focus:outline-none focus:ring focus:ring-[#02C088] focus:ring-opacity-75;
     transition: --myColor3 0.5s, --myColor4 0.5s;
   }
   .btn-secondary:hover {
     --myColor3: #1A70BA;
     --myColor4: #1A70BA;
+  }
+  .btn-transparent {
+    font-family: "Manrope", sans-serif;
+    @apply py-3 px-7 text-white font-semibold focus:outline-none focus:ring focus:ring-[#2BB3E4] focus:ring-opacity-75 inline-block;
   }
 }
 
@@ -154,4 +158,68 @@ p {
 
 .swiper-pagination-bullet {
   background: #ffffff !important;
+}
+
+.pagination a {
+  @apply text-[#009AFF] hover:underline font-bold text-lg mx-2 inline-block;
+}
+
+.card-blog {
+  @apply relative;
+}
+
+.card-blog .title-h3 a {
+ @apply transition duration-300 ease-in-out;
+}
+
+.card-blog:hover .title-h3 a {
+  @apply text-[#009AFF]
+}
+
+.card-blog .link-read-more {
+  @apply text-[#185CFF]
+}
+
+.pagination a {
+  @apply text-[#185CFF] hover:underline font-bold text-lg mx-2 inline-block;
+}
+
+.card-blog .link-read-more::after {
+  content: '';
+  @apply absolute top-0 left-0 w-full h-full
+}
+
+.intro-banner .title-h1 {
+  @apply xl:text-4xl lg:text-3xl text-2xl font-semibold xl:mb-8 lg:mb-4 mb-4;
+  line-height: 1 !important;
+}
+
+.intro-banner .title-h1 span.sub-heading {
+  @apply lg:text-5xl text-3xl font-bold
+}
+
+.intro-banner p {
+  @apply lg:text-lg text-lg;
+}
+
+.intro-banner .title-h3 {
+  @apply lg:text-2xl text-xl font-semibold mb-0
+}
+
+.products-services-links .link {
+  @apply lg:text-xl text-lg transition duration-300 ease-in-out  hover:text-[#02C088];
+}
+
+.blog-sidebar-links a {
+  @apply text-[#000000] hover:text-[#037ccb] transition ease-in-out
+}
+
+.link .icon {
+  transition: all ease-in-out 0.3s;
+  position: relative;
+  right: 0.5rem;
+}
+
+.link:hover .icon {
+  right: 0;
 }
