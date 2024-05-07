@@ -36,7 +36,7 @@ body {
 }
 
 .title-h3 {
-  @apply xl:text-3xl lg:text-2xl text-2xl font-bold xl:mb-8 lg:mb-4 mb-4;
+  @apply xl:text-3xl lg:text-2xl text-2xl font-bold xl:mb-6 lg:mb-4 mb-4;
 }
 
 .title-h4 {
@@ -189,29 +189,24 @@ p {
   @apply absolute top-0 left-0 w-full h-full
 }
 
-.intro-banner .title-h1 {
-  @apply xl:text-4xl lg:text-3xl text-2xl font-semibold xl:mb-8 lg:mb-4 mb-4;
-  line-height: 1 !important;
+.intro-banner-blog .title-h1 {
+  @apply xl:text-4xl lg:text-3xl text-2xl font-semibold xl:mb-0 lg:mb-0 mb-0 lg:!leading-[1.1];
 }
 
-.intro-banner .title-h1 span.sub-heading {
+.intro-banner-blog .title-h1 span.sub-heading {
   @apply lg:text-5xl text-3xl font-bold
 }
 
-.intro-banner p {
+.intro-banner-blog p {
   @apply lg:text-lg text-lg;
 }
 
-.intro-banner .title-h3 {
+.intro-banner-blog .title-h3 {
   @apply lg:text-2xl text-xl font-semibold mb-0
 }
 
 .products-services-links .link {
   @apply lg:text-xl text-lg transition duration-300 ease-in-out  hover:text-[#037ccb];
-}
-
-.blog-sidebar-links a {
-  @apply text-[#000000] hover:text-[#037ccb] transition ease-in-out
 }
 
 .link .icon {
@@ -222,4 +217,20 @@ p {
 
 .link:hover .icon {
   right: 0;
+}
+
+.blog-sidebar-links a {
+  @apply lg:text-lg inline-block text-[#000000] hover:text-[#037ccb] transition ease-in-out
+}
+
+.blog-sidebar-links .is-current a {
+  @apply lg:text-[#037ccb] lg:font-semibold
+}
+
+.section-scrollspy .title-h3 {
+  @apply xl:text-3xl lg:text-2xl text-2xl font-semibold xl:mb-2 lg:mb-2 mb-1;
+}
+
+.section-scrollspy p {
+  @apply lg:text-lg
 }

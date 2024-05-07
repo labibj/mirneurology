@@ -56,6 +56,10 @@ const Footer = () => {
                   Careers
                 </Link>
                 <span>|</span>
+                <Link href="/blog" className="flex items-center gap-2 hover:underline">
+                  Blog
+                </Link>
+                <span>|</span>
                 <Link href="" className="flex items-center gap-2 hover:underline">
                       Privacy policy
                 </Link>

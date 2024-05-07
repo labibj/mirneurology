@@ -56,6 +56,12 @@ const Header = () => {
     },
   ];
 
+  const [isVisible, setIsVisible] = useState(false);
+
+const toggleMenu = () => {
+setIsVisible(!isVisible);
+};
+
   return (
     <header
       className={ "header transition z-20 nav lg:py-0 py-2 flex flex-col mx-auto left-0 right-0 top-0 bg-white shadow-lg fixed delay-100 bg-gradient-to-b from-[#1A70BA] to-[#02C088] " + hState }

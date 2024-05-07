@@ -47,7 +47,7 @@ export default function Blog() {
                 <p className="mb-5">With a growth rate of 18.2% nationwide, it&rsquo;s clear to see that healthcare organizations are realizing the benefits of RPM for patients and providers alike.</p>
                 <p className="mb-5">Curious whether RPM is the right fit for your organization? Find everything in this comprehensive article you need to know about RPM and how to implement it.</p>
                 <div>
-                    <Link href={""} className="btn-primary">View blog</Link>
+                    <Link href={"/blog/navigating-mental-health-during-the-holidays"} className="btn-primary">View blog</Link>
                 </div>
             </div>
             <div className="self-center">
