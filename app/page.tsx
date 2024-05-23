@@ -800,10 +800,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="relative max-w-[1920px] mx-auto w-full flex flex-col xl:mb-24 mb-0 lg:px-0 px-5 bg-[#e8f1f8] lg:bg-transparent">
+      <div className="relative max-w-[1920px] mx-auto w-full flex flex-col mb-0 lg:px-0 px-5 lg:bg-transparent">
         <Image
-          src="/illustration-5.webp"
-          alt="illustration-5"
+          src="/illustration-5-a.webp"
+          alt="illustration-5-a"
           className="absolute top-0 left-0 mx-auto hidden lg:block"
           width={1920}
           height={4000}
@@ -812,13 +812,22 @@ export default function Home() {
         <Image
           src="/illustration-6.webp"
           alt="illustration-6"
-          className="absolute top-[22.5%] right-0 hidden lg:block"
+          className="absolute top-[32%] right-0 hidden lg:block"
           width={1500}
           height={1885}
           loading="lazy"
         />
-        <div className="w-full max-w-7xl mx-auto relative xl:pt-48 lg:pt-24 lg:pb-0 py-8 lg:text-left text-center">
-          <div className="lg:w-6/12 w-full mx-auto text-center lg:mb-20 mb-5">
+        <Image
+          src="/illustration-5-b.webp"
+          alt="illustration-5-b"
+          className="absolute bottom-0 left-0 mx-auto hidden lg:block"
+          width={1920}
+          height={4000}
+          loading="lazy"
+        />
+        <div className="bg-[#e8f1f8] mt-[186px] mb-[103px] lg:py-0 py-8">
+        <div className="w-full max-w-7xl mx-auto relative lg:text-left text-center">
+          <div className="lg:w-7/12 w-full mx-auto text-center lg:mb-20 mb-5">
             <h3 className="title-h3 text-[#1A70BA]">How Do We Deliver Our Neurological Services?</h3>
             <p className="font-medium"><span className="text-secondary">6 Stages</span> of Our Treatment Process</p>
           </div>
@@ -877,7 +886,7 @@ export default function Home() {
                   <li><span className="icon-bullet">&bull;</span> Patient and family interviews to gather comprehensive background information</li>
                   <li><span className="icon-bullet">&bull;</span> Identification of potential neurological issues</li>
                 </ul>
-                <p>Our detailed assessment phase lays the groundwork for accurate diagnosis and effective treatment planning.</p>
+                <p className="lg:mb-12 mb-6">Our detailed assessment phase lays the groundwork for accurate diagnosis and effective treatment planning.</p>
                 <Link href="" className="btn-primary rounded-full">
                   Book An Appointment
                 </Link>
@@ -1015,7 +1024,7 @@ export default function Home() {
                   <li><span className="icon-bullet">&bull;</span> Continuous monitoring and regular health evaluations</li>
                   <li><span className="icon-bullet">&bull;</span> Support groups and counseling for patients and families</li>
                 </ul>
-                <p className="lg:mb-12 mb-6">Effective management ensures that patients lead healthier lives with minimized impact from neurological conditions.</p>                
+                <p className="">Effective management ensures that patients lead healthier lives with minimized impact from neurological conditions.</p>                
               </div>
               <div className="w-5/12 self-center">
                 <Image
@@ -1029,7 +1038,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>        
+        </div>
+        </div>
       </div>
       <div className="w-full max-w-7xl mx-auto relative lg:py-16 py-8 xl:px-0 px-5">
         <div className="lg:mb-40 mb-8">

@@ -37,7 +37,7 @@ export default function FAQAccordionOne({ questions }: FAQAccordionOneProps) {
         {questions.map(({ question, answer }, idx) => (
           <div key={idx} className="cursor-pointer w-full">
             <div
-              className="flex justify-between min-h-10 text-left hover:cursor-pointer"
+              className="flex justify-between gap-5 min-h-10 text-left hover:cursor-pointer"
               onClick={() => toggleQuestion(idx)}
             >
               {/* Title */}
@@ -59,7 +59,7 @@ export default function FAQAccordionOne({ questions }: FAQAccordionOneProps) {
               className="overflow-hidden transition-all duration-500"
               style={{ maxHeight: `${answerHeights[idx] || 0}px` }}
             >
-              <div className="faq-answer lg:mx-4 overflow-hidden text-left">
+              <div className="faq-answer overflow-hidden text-left">
                 <p className="lg:mt-0 mt-2 py-1 font-normal leading-normal whitespace-pre-line text-base lg:text-lg">{answer}</p>
               </div>              
             </div>

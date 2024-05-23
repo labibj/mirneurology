@@ -52,7 +52,7 @@ body {
 }
 
 .intro-banner .title-h1 {
-  @apply text-3xl lg:mb-7 mb-4;
+  @apply text-3xl lg:mb-7 mb-4 font-semibold;
 }
 
 .intro-banner .title-h1 span {
@@ -60,7 +60,7 @@ body {
 }
 
 .intro-banner .title-h2 {
-  @apply lg:text-3xl text-2xl lg:mb-7 mb-4 font-semibold;
+  @apply lg:text-3xl text-2xl lg:mb-7 mb-4 font-medium;
 }
 
 .sub-page-banner .title-h2 {

@@ -33,11 +33,11 @@ export default function FAQAccordionTwo({ questions }: FAQAccordionTwoProps) {
       className={``}
     >
       {/* Questions */}
-      <div className="flex flex-col items-center justify-center w-full px-2 text-lg lg:text-base gap-4">
+      <div className="flex flex-col items-center justify-center w-full text-lg lg:text-base gap-4">
         {questions.map(({ question, answer }, idx) => (
           <div key={idx} className="cursor-pointer w-full">
             <div
-              className="flex items-center justify-between min-h-10 text-left hover:cursor-pointer"
+              className="flex gap-5 justify-between min-h-10 text-left hover:cursor-pointer"
               onClick={() => toggleQuestion(idx)}
             >
               {/* Title */}
@@ -45,14 +45,14 @@ export default function FAQAccordionTwo({ questions }: FAQAccordionTwoProps) {
                 {question}
               </span> */}
               {activeIndex === idx ?
-                <span className="lg:ml-4 font-normal lg:text-xl text-lg transition-all duration-300 text-secondary">{question}
+                <span className="font-normal lg:text-xl text-lg transition-all duration-300 text-secondary">{question}
                 </span>
                 :
-                <span className="lg:ml-4 font-normal lg:text-xl text-lg transition-all duration-300 text-black">{question}
+                <span className="font-normal lg:text-xl text-lg transition-all duration-300 text-black">{question}
                 </span>
               }
               {/* Toggle Button */}
-              <div>
+              <div className="relative top-1">
                 {activeIndex === idx ? <FaAngleDown className='transition-all duration-300 rotate-180 text-secondary' /> : <FaAngleDown className='transition-all duration-300 rotate-0' />}
               </div>
             </div>
@@ -62,7 +62,7 @@ export default function FAQAccordionTwo({ questions }: FAQAccordionTwoProps) {
               className="overflow-hidden transition-all duration-500"
               style={{ maxHeight: `${answerHeights[idx] || 0}px` }}
             >
-              <div className="faq-answer lg:mx-4 overflow-hidden text-left">
+              <div className="faq-answer overflow-hidden text-left">
                 <p className="lg:mt-0 mt-2 py-1 font-normal leading-normal whitespace-pre-line text-base lg:text-lg">{answer}</p>
               </div>              
             </div>
