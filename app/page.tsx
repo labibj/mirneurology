@@ -162,7 +162,7 @@ export default function Home() {
               <LogoSlider data={dataLogoSliderSm} />
             </div>
       </div>
-      <div className="relative xl:h-[987px] lg:h-[535px] flex flex-col justify-center bg-gradient-to-t from-[#1A70BA] to-[#02C088] lg:bg-none lg:py-0 py-8 lg:px-0 px-5">
+      {/* <div className="relative xl:h-[987px] lg:h-[535px] flex flex-col justify-center bg-gradient-to-t from-[#1A70BA] to-[#02C088] lg:bg-none lg:py-0 py-8 lg:px-0 px-5">
         <Image
           src="/illustration-reviews.webp"
           alt="illustration-reviews"
@@ -221,32 +221,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="lg:py-16 py-8 lg:px-0 px-5">
-        <div className="w-full max-w-7xl mx-auto text-center">
-          <h3 className="title-h3 text-[#1A70BA]">Testimonials</h3>
-          <p className="lg:mb-5 mb-2 font-medium"><span className="text-secondary font-extrabold">Patients&rsquo;</span> Experiences Regarding Our Neurology Services in Hagerstown. </p>
-          <div className="text-sm leading-8 mx-auto lg:w-9/12 w-full mb-5">
-            Mir Neurology in Hagerstown has truly been a beacon of hope for me. From the moment I walked through their doors, I felt heard, understood, and cared for. The expertise of the team combined with their genuine compassion has made all the difference in my journey towards better health. I can&rsquo;t thank them enough for their dedication to improving lives. Highly recommended!
-          </div>
-          <div className="inline-flex text-left gap-2">
-            <div className="rounded-circle">
-              <Image
-                src="/laura-faint.jpg"
-                alt="laura-faint"
-                className=""
-                width={62}
-                height={62}
-                loading="lazy"
-              />
-            </div>
-            <div className="self-center">
-              <div className="text-[#02C088] text-base font-semibold">Laura Faint</div>
-              <div className="text-sm">Successfully Treated Patient</div>
-            </div>
-          </div>
-        </div>
-      </div>
+      </div> */}      
       <div className="relative xl:h-[708px] lg:h-[550px] flex flex-col justify-center lg:mb-16 mb-0 bg-gradient-to-t from-[#1A70BA] to-[#02C088] xl:bg-none lg:py-0 py-8 lg:px-0 px-5">
         <Image
           src="/illustration-1.webp"
@@ -426,8 +401,8 @@ export default function Home() {
             <div className="card lg:items-start items-center text-center lg:text-left bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
               <div className="mb-5">
                 <Image
-                  src="/icon-alzheimers-Disease.svg"
-                  alt="icon-alzheimers-Disease"
+                  src="/icon-alzheimers-disease.svg"
+                  alt="icon-alzheimers-disease"
                   className=""
                   width={66}
                   height={90}
@@ -549,6 +524,31 @@ export default function Home() {
                 height={391}
                 loading="lazy"
               />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="lg:py-16 py-8 lg:px-0 px-5">
+        <div className="w-full max-w-7xl mx-auto text-center">
+          <h3 className="title-h3 text-[#1A70BA]">Testimonials</h3>
+          <p className="lg:mb-5 mb-2 font-medium"><span className="text-secondary font-extrabold">Patients&rsquo;</span> Experiences Regarding Our Neurology Services in Hagerstown. </p>
+          <div className="text-sm leading-8 mx-auto lg:w-9/12 w-full mb-5">
+            Mir Neurology in Hagerstown has truly been a beacon of hope for me. From the moment I walked through their doors, I felt heard, understood, and cared for. The expertise of the team combined with their genuine compassion has made all the difference in my journey towards better health. I can&rsquo;t thank them enough for their dedication to improving lives. Highly recommended!
+          </div>
+          <div className="inline-flex text-left gap-2">
+            <div className="rounded-circle">
+              <Image
+                src="/laura-faint.jpg"
+                alt="laura-faint"
+                className=""
+                width={62}
+                height={62}
+                loading="lazy"
+              />
+            </div>
+            <div className="self-center">
+              <div className="text-[#02C088] text-base font-semibold">Laura Faint</div>
+              <div className="text-sm">Successfully Treated Patient</div>
             </div>
           </div>
         </div>
