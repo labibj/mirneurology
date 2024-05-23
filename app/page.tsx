@@ -227,7 +227,7 @@ export default function Home() {
           <h3 className="title-h3 text-[#1A70BA]">Testimonials</h3>
           <p className="lg:mb-5 mb-2 font-medium"><span className="text-secondary font-extrabold">Patients&rsquo;</span> Experiences Regarding Our Neurology Services in Hagerstown. </p>
           <div className="text-sm leading-8 mx-auto lg:w-9/12 w-full mb-5">
-            Mir Neurology in Hagerstown has truly been a beacon of hope for me. From the moment I walked through their doors, I felt heard, understood, and cared for. The expertise of the team combined with their genuine compassion has made all the difference in my journey towards better health. I can't thank them enough for their dedication to improving lives. Highly recommended!
+            Mir Neurology in Hagerstown has truly been a beacon of hope for me. From the moment I walked through their doors, I felt heard, understood, and cared for. The expertise of the team combined with their genuine compassion has made all the difference in my journey towards better health. I can&rsquo;t thank them enough for their dedication to improving lives. Highly recommended!
           </div>
           <div className="inline-flex text-left gap-2">
             <div className="rounded-circle">
@@ -494,7 +494,7 @@ export default function Home() {
           </div>
           <div className="lg:w-9/12 w-full mx-auto flex lg:flex-row flex-col">
             <div className="lg:w-5/12 w-full lg:text-left text-center">
-              <p className="lg:mb-10 mb-4">At <strong>Mir Neurology</strong> in Hagerstown, we offer comprehensive care for various neurological disorders using state-of-the-art diagnostic tools. Our highly trained specialists are committed to providing personalized treatment plans for conditions ranging from migraines to Parkinson's disease, ensuring tailored care for each patient. <strong>Mir Neurology Clinic</strong> is admired by many as seen on healthgrades.</p>
+              <p className="lg:mb-10 mb-4">At <strong>Mir Neurology</strong> in Hagerstown, we offer comprehensive care for various neurological disorders using state-of-the-art diagnostic tools. Our highly trained specialists are committed to providing personalized treatment plans for conditions ranging from migraines to Parkinson&rsquo;s disease, ensuring tailored care for each patient. <strong>Mir Neurology Clinic</strong> is admired by many as seen on healthgrades.</p>
               <p className="lg:mb-10 mb-4">We prioritize a patient-centered approach, involving patients and families in the treatment process. Mir Neurology Clinic garners admiration from many, as highlighted in MediFind. Our collaborative method enhances understanding and empowers informed decision-making, creating a supportive environment for managing and recovering from neurological conditions.</p>
               <p className=""><strong>Mir Neurology</strong> stays at the forefront of neurological science through continuous research and professional development. Many admire Mir Neurology Clinic, a sentiment reflected on WebMD. We integrate the latest advancements into our practice, providing cutting-edge treatments to enhance our patients&rsquo; quality of life. Our compassionate approach ensures the highest standard of care.</p>
             </div>
@@ -870,7 +870,7 @@ export default function Home() {
                   height={379}
                   loading="lazy"
                 />
-                <p className="lg:mb-12 mb-6">During the assessment phase, we conduct a thorough evaluation of the patient's neurological status. This includes a detailed review of medical history, symptoms, and initial tests to gather all necessary information.</p>
+                <p className="lg:mb-12 mb-6">During the assessment phase, we conduct a thorough evaluation of the patient&rsquo;s neurological status. This includes a detailed review of medical history, symptoms, and initial tests to gather all necessary information.</p>
                 <ul className="list-none with-bullets lg:pl-12 lg:pr-32 flex flex-col gap-2 lg:mb-12 mb-6">
                   <li><span className="icon-bullet">&bull;</span> Comprehensive review of medical history and current symptoms</li>
                   <li><span className="icon-bullet">&bull;</span> Neurological examination and initial diagnostic tests</li>
@@ -940,7 +940,7 @@ export default function Home() {
                   height={362}
                   loading="lazy"
                 />
-                <p className="lg:mb-12 mb-6">Our treatment phase is customized to each patient's specific neurological condition, incorporating the latest medical advances and therapeutic techniques. We aim to improve quality of life and manage symptoms effectively.</p>
+                <p className="lg:mb-12 mb-6">Our treatment phase is customized to each patient&rsquo;s specific neurological condition, incorporating the latest medical advances and therapeutic techniques. We aim to improve quality of life and manage symptoms effectively.</p>
                 <ul className="list-none with-bullets lg:pl-12 lg:pr-32 flex flex-col gap-2 lg:mb-12 mb-6">
                   <li><span className="icon-bullet">&bull;</span> Development of personalized treatment plans</li>
                   <li><span className="icon-bullet">&bull;</span> Medication management and prescription</li>
