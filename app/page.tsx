@@ -324,8 +324,8 @@ export default function Home() {
             <div className="card lg:items-start items-center text-center lg:text-left bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
               <div className="mb-5">
                 <Image
-                  src="/icon-migraine.svg"
-                  alt="icon-migraine"
+                  src="/icon-dizziness.svg"
+                  alt="icon-dizziness"
                   className=""
                   width={66}
                   height={90}
@@ -341,8 +341,8 @@ export default function Home() {
             <div className="card lg:items-start items-center text-center lg:text-left bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
               <div className="mb-5">
                 <Image
-                  src="/icon-migraine.svg"
-                  alt="icon-migraine"
+                  src="/icon-seizure.svg"
+                  alt="icon-seizure"
                   className=""
                   width={66}
                   height={90}
@@ -358,8 +358,8 @@ export default function Home() {
             <div className="card lg:items-start items-center text-center lg:text-left bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
               <div className="mb-5">
                 <Image
-                  src="/icon-migraine.svg"
-                  alt="icon-migraine"
+                  src="/icon-head-injury.svg"
+                  alt="icon-head-injury"
                   className=""
                   width={66}
                   height={90}
@@ -375,8 +375,8 @@ export default function Home() {
             <div className="card lg:items-start items-center text-center lg:text-left bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
               <div className="mb-5">
                 <Image
-                  src="/icon-migraine.svg"
-                  alt="icon-migraine"
+                  src="/icon-stroke.svg"
+                  alt="icon-stroke"
                   className=""
                   width={66}
                   height={90}
@@ -392,8 +392,8 @@ export default function Home() {
             <div className="card lg:items-start items-center text-center lg:text-left bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
               <div className="mb-5">
                 <Image
-                  src="/icon-migraine.svg"
-                  alt="icon-migraine"
+                  src="/icon-multiple-sclerosis.svg"
+                  alt="icon-multiple-sclerosis"
                   className=""
                   width={66}
                   height={90}
@@ -409,8 +409,8 @@ export default function Home() {
             <div className="card lg:items-start items-center text-center lg:text-left bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
               <div className="mb-5">
                 <Image
-                  src="/icon-migraine.svg"
-                  alt="icon-migraine"
+                  src="/icon-neuropathy.svg"
+                  alt="icon-neuropathy"
                   className=""
                   width={66}
                   height={90}
@@ -426,8 +426,8 @@ export default function Home() {
             <div className="card lg:items-start items-center text-center lg:text-left bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
               <div className="mb-5">
                 <Image
-                  src="/icon-migraine.svg"
-                  alt="icon-migraine"
+                  src="/icon-alzheimers-Disease.svg"
+                  alt="icon-alzheimers-Disease"
                   className=""
                   width={66}
                   height={90}
@@ -443,8 +443,8 @@ export default function Home() {
             <div className="card lg:items-start items-center text-center lg:text-left bg-white border border-[#1A70BA]  flex flex-col p-8 relative rounded-3xl transition duration-300 ease-in-out drop-shadow-lg hover:drop-shadow-xl">
               <div className="mb-5">
                 <Image
-                  src="/icon-migraine.svg"
-                  alt="icon-migraine"
+                  src="/icon-botox.svg"
+                  alt="icon-botox"
                   className=""
                   width={66}
                   height={90}
