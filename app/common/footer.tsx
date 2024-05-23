@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { Open_Sans, Manrope } from "next/font/google";
 import Image from "next/image";
 import { AiOutlineFacebook, AiOutlineLinkedin, AiOutlineInstagram, AiOutlineTwitter, AiOutlineYoutube } from "react-icons/ai";
-import { FaFacebookF, FaLinkedinIn, FaInstagram, FaTwitter, FaYoutube, FaPinterestP } from "react-icons/fa6";
+import { FaFacebookF, FaLinkedinIn, FaInstagram, FaTwitter, FaYoutube, FaPinterestP, FaXTwitter } from "react-icons/fa6";
 
 const manrope = Manrope({
   subsets: ['latin'],
@@ -43,10 +43,10 @@ const Footer = () => {
     <footer className="w-full lg:py-10 py-8 footer px-5 xl:px-0 bg-gradient-to-t from-[#1A70BA] to-[#02C088] relative">
         <div className="max-w-7xl w-full mx-auto">
         <div className="flex lg:flex-row flex-col gap-4 lg:gap-0 justify-between text-white">
-            <div className="text-center lg:text-left lg:w-6/12">
+            <div className="text-center lg:text-left lg:w-7/12">
               <div className={manrope.className}><p className="font-semibold mb-3">&copy; 2024 Mir Neurology. All Rights Reserved.</p></div>
               <div className="mb-4">
-                <p>Your individual partner in self-care and professional medical advice. For online virtual medical assistance.</p>
+                <p>Your personalized healthcare partner. Access virtual medical assistance online today.</p>
                 <p>Contact us at <Link href="tel:+16012015580">+1 (301) 797-7600</Link></p>
                 <p>Send us an email at <Link href="mailto:admin@mirneurology.com">admin@mirneurology.com</Link></p>
               </div>              
@@ -74,24 +74,24 @@ const Footer = () => {
               </div>
 
             </div>
-            <div className="lg:w-6/12 lg:justify-end justify-center flex gap-3 text-xl">
+            <div className="lg:w-5/12 lg:justify-end justify-center flex gap-3 text-xl">
               <div className="border-2 border-white rounded-full w-10 h-10 flex justify-center items-center cursor-pointer transition hover:bg-white hover:text-[#166D99]">
                 <FaFacebookF />
               </div>
               <div className="border-2 border-white rounded-full w-10 h-10 flex justify-center items-center cursor-pointer transition hover:bg-white hover:text-[#166D99]">
-              <FaLinkedinIn />
+                <FaLinkedinIn />
               </div>
               <div className="border-2 border-white rounded-full w-10 h-10 flex justify-center items-center cursor-pointer transition hover:bg-white hover:text-[#166D99]">
-              <FaInstagram />
+                <FaInstagram />
               </div>
               <div className="border-2 border-white rounded-full w-10 h-10 flex justify-center items-center cursor-pointer transition hover:bg-white hover:text-[#166D99]">
-              <FaTwitter />
+                <FaXTwitter />
               </div>
               <div className="border-2 border-white rounded-full w-10 h-10 flex justify-center items-center cursor-pointer transition hover:bg-white hover:text-[#166D99]">
-              <FaYoutube />
+                <FaYoutube />
               </div>
               <div className="border-2 border-white rounded-full w-10 h-10 flex justify-center items-center cursor-pointer transition hover:bg-white hover:text-[#166D99]">
-              <FaPinterestP />
+                <FaPinterestP />
               </div>
             </div>
           </div>

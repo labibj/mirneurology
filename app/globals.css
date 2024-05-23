@@ -51,6 +51,18 @@ body {
   @apply lg:text-lg text-base font-semibold lg:mb-6 mb-6;
 }
 
+.intro-banner .title-h1 {
+  @apply text-3xl lg:mb-7 mb-4;
+}
+
+.intro-banner .title-h1 span {
+  @apply lg:text-5xl text-3xl mb-2 block;
+}
+
+.intro-banner .title-h2 {
+  @apply lg:text-3xl text-2xl lg:mb-7 mb-4 font-semibold;
+}
+
 .sub-page-banner .title-h2 {
   @apply lg:text-5xl text-2xl lg:mb-7 mb-4 lg:!leading-[60px] font-normal;
 }
