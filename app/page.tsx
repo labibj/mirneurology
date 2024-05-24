@@ -528,7 +528,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="lg:py-16 py-8 lg:px-0 px-5">
+      <div className="lg:py-16 lg:pb-32 py-8 lg:px-0 px-5">
         <div className="w-full max-w-7xl mx-auto text-center">
           <h3 className="title-h3 text-[#1A70BA]">Testimonials</h3>
           <p className="lg:mb-5 mb-2 font-medium"><span className="text-secondary font-extrabold">Patients&rsquo;</span> Experiences Regarding Our Neurology Services in Hagerstown. </p>
@@ -553,7 +553,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="xl:py-40 lg:py-16 xl:-mt-24 bg-[#e8f1f8] lg:py-0 py-8 lg:px-0 px-5">
+      <div className="xl:py-40 lg:py-16 bg-[#e8f1f8] lg:py-0 py-8 lg:px-0 px-5">
         <div className="w-full max-w-7xl mx-auto text-center">
           <h3 className="title-h3 text-[#1A70BA]">We Have Worked With:</h3>
           <div className="grid xl:grid-cols-6 lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-8 items-center justify-items-center">
